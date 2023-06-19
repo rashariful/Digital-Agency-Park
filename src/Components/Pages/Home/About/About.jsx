@@ -25,29 +25,29 @@ const About = () => {
           </ul>
         </div>
       </div>
-      <div class="bg-white py-6 sm:py-8 lg:py-12">
-        <div class="mx-auto max-w-screen-xl px-4 md:px-8">
-          <div class="grid gap-8 md:grid-cols-2 lg:gap-12">
+      <div className="bg-white py-6 sm:py-8 lg:py-12">
+        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
+          <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
             <div>
-              <div class="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
+              <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
                 <img
                   src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
                   loading="lazy"
                   alt="Photo by Martin Sanchez"
-                  class="h-full w-full object-cover object-center"
+                  className="h-full w-full object-cover object-center"
                 />
               </div>
             </div>
 
-            <div class="md:pt-8">
-              <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md: md:text-left">
+            <div className="md:pt-8">
+              <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md: md:text-left">
                 Digital Agency Park: Revolutionizing 
               </h1>
-              <p class="text-center text-lg font-bold md:text-left">
+              <p className="text-center text-lg font-bold md:text-left">
                 Introduction:
               </p>
 
-              <p class=" text-gray-500 sm:text-lg md:mb-8">
+              <p className=" text-gray-500 sm:text-lg md:mb-8">
                 Digital Agency Park, an innovative 
                 Bangladesh, is transforming the way people access convenient and
                 reliable transportation services. With a mission to provide
@@ -57,11 +57,11 @@ const About = () => {
                 vision, mission, and their commitment to revolutionizing the car
                 rental industry in Bangladesh.
               </p>
-              <p class="text-center text-lg font-bold md:text-left">
+              <p className="text-center text-lg font-bold md:text-left">
                 Mission Statement:
               </p>
 
-              <p class=" text-gray-500 sm:text-lg md:mb-8">
+              <p className=" text-gray-500 sm:text-lg md:mb-8">
                 Digital Agency Park' mission is to redefine car rentals in Dhaka, offering
                 customers a seamless and convenient experience. By leveraging
                 technology and providing exceptional customer service, Digital Agency Park
@@ -71,9 +71,9 @@ const About = () => {
                 exceptional service quality, while also contributing to the
                 local economy and fostering sustainable growth.
               </p>
-              <p class="text-center text-lg font-bold md:text-left">Vision:</p>
+              <p className="text-center text-lg font-bold md:text-left">Vision:</p>
 
-              <p class=" text-gray-500 sm:text-lg md:mb-8">
+              <p className=" text-gray-500 sm:text-lg md:mb-8">
                 Digital Agency Park envisions a future where transportation in Dhaka is no
                 longer a challenge, but a hassle-free experience. The company
                 aims to create a culture of accessibility and convenience by
@@ -83,8 +83,8 @@ const About = () => {
                 tourists alike, ensuring seamless mobility solutions throughout
                 the city.
               </p>
-              <p class="text-center text-lg font-bold md:text-left">Our Aim:</p>
-              <p class="text-gray-500 sm:text-lg">
+              <p className="text-center text-lg font-bold md:text-left">Our Aim:</p>
+              <p className="text-gray-500 sm:text-lg">
                 Digital Agency Park is dedicated to fulfilling several key aims:
               </p>
               <p>

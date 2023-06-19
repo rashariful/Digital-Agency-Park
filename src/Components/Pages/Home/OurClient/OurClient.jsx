@@ -2,16 +2,16 @@ import React from "react";
 
 const OurClient = () => {
   return (
-    <div class="bg-white py-6 sm:py-8 lg:py-12">
-      <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
-        <h2 class="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8">
+    <div className="bg-white py-6 sm:py-8 lg:py-12">
+      <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
+        <h2 className="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-8">
           Trusted by the best
         </h2>
 
-        <div class="sm:h-40 grid grid-cols-2 md:grid-cols-4 sm:content-evenly bg-gray-100 rounded-lg gap-6 p-6">
-          <div class="flex justify-center text-gray-400">
+        <div className="sm:h-40 grid grid-cols-2 md:grid-cols-4 sm:content-evenly bg-gray-100 rounded-lg gap-6 p-6">
+          <div className="flex justify-center text-gray-400">
             <svg
-              class="w-auto h-6 sm:h-8 lg:h-10"
+              className="w-auto h-6 sm:h-8 lg:h-10"
               width="154"
               height="39"
               viewBox="0 0 154 39"
@@ -23,9 +23,9 @@ const OurClient = () => {
             </svg>
           </div>
 
-          <div class="flex justify-center text-gray-400">
+          <div className="flex justify-center text-gray-400">
             <svg
-              class="w-auto h-6 sm:h-8 lg:h-10"
+              className="w-auto h-6 sm:h-8 lg:h-10"
               width="186"
               height="39"
               viewBox="0 0 186 39"
@@ -37,9 +37,9 @@ const OurClient = () => {
             </svg>
           </div>
 
-          <div class="flex justify-center text-gray-400">
+          <div className="flex justify-center text-gray-400">
             <svg
-              class="w-auto h-6 sm:h-8 lg:h-10"
+              className="w-auto h-6 sm:h-8 lg:h-10"
               width="173"
               height="39"
               viewBox="0 0 173 39"
@@ -52,9 +52,9 @@ const OurClient = () => {
             </svg>
           </div>
 
-          <div class="flex justify-center text-gray-400">
+          <div className="flex justify-center text-gray-400">
             <svg
-              class="w-auto h-6 sm:h-8 lg:h-10"
+              className="w-auto h-6 sm:h-8 lg:h-10"
               width="146"
               height="39"
               viewBox="0 0 146 39"

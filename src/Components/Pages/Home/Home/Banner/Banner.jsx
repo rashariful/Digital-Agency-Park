@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../../../../../Assets/hero-1.png";
+import hero2 from "../../../../../Assets/hero-2.png";
 import {  AiFillRightCircle } from "react-icons/ai";
 
 const Banner = () => {
@@ -24,7 +25,7 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <img src={hero} alt="" />
+          <img src={hero2} alt="" />
         </div>
       </section>
     </div>

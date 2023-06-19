@@ -12,9 +12,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className="sticky top-0 z-30"
+      className="sticky top-0 z-30 invisible sm:visible w-full"
     >
-      <div className="flex justify-between items-center bg-gradient-to-r from-[#06207c] via-cyan-400 to-[#162c7b] h-8 px-10">
+      <div className="flex flex-col sm:flex-row flex-wrap justify-between items-center bg-gradient-to-r from-[#06207c] via-cyan-400 to-[#162c7b] h-8 px-10">
         <div className="flex justify-between gap-5">
           <div className="flex items-center gap-3">
 
