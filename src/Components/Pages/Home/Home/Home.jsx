@@ -19,8 +19,8 @@ const Home = () => {
            <section> <Services/> </section>
            <section> <Team/> </section>
            <section> <OurClient/> </section>
-           <section> <Newsletter/> </section>
            <section> <Testimonials/> </section>
+           <section> <Newsletter/> </section>
         </div>
     );
 };

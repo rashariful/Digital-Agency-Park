@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
 const Services = () => {
@@ -25,12 +26,12 @@ const Services = () => {
                 <img
                   src="https://www.cloudways.com/blog/wp-content/uploads/20-Best-Web-Design-Tools-for-Design-Agencies.jpg"
                   loading="lazy"
-                  alt="Photo by Nick Karvounis"
+                  alt=" by Nick Karvounis"
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
 
-              <div className="flex justify-between items-start bg-gray-100 rounded-b-lg gap-2 p-4">
+              {/* <div className="flex justify-between items-start bg-gray-100 rounded-b-lg gap-2 p-4">
                 <div className="flex flex-col">
                   <a
                     href="#"
@@ -48,7 +49,7 @@ const Services = () => {
                     $29.99
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div>
               <a
@@ -58,12 +59,12 @@ const Services = () => {
                 <img
                   src="https://assets.bitdegree.org/online-learning-platforms/storage/media/2018/08/what-is-a-web-developer.jpg"
                   loading="lazy"
-                  alt="Photo by Nick Karvounis"
+                  alt=" by Nick Karvounis"
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
 
-              <div className="flex justify-between items-start bg-gray-100 rounded-b-lg gap-2 p-4">
+              {/* <div className="flex justify-between items-start bg-gray-100 rounded-b-lg gap-2 p-4">
                 <div className="flex flex-col">
                   <a
                     href="#"
@@ -81,7 +82,7 @@ const Services = () => {
                     $29.99
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div>
@@ -92,12 +93,12 @@ const Services = () => {
                 <img
                   src="https://www.oberlo.com/media/1603954182-seo-article-header.png?fit=max&fm=jpg&w=1824"
                   loading="lazy"
-                  alt="Photo by Austin Wade"
+                  alt=" by Austin Wade"
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
 
-              <div className="flex justify-between items-start bg-gray-100 rounded-b-lg gap-2 p-4">
+              {/* <div className="flex justify-between items-start bg-gray-100 rounded-b-lg gap-2 p-4">
                 <div className="flex flex-col">
                   <a
                     href="#"
@@ -115,7 +116,7 @@ const Services = () => {
                     $35.00
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div>
@@ -126,12 +127,12 @@ const Services = () => {
                 <img
                   src="https://assets.entrepreneur.com/content/3x2/2000/1635968078-GettyImages-913248994.jpg"
                   loading="lazy"
-                  alt="Photo by Vladimir Fedotov"
+                  alt=" by Vladimir Fedotov"
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
                 />
               </a>
 
-              <div className="flex justify-between items-start bg-gray-100 rounded-b-lg gap-2 p-4">
+              {/* <div className="flex justify-between items-start bg-gray-100 rounded-b-lg gap-2 p-4">
                 <div className="flex flex-col">
                   <a
                     href="#"
@@ -149,7 +150,7 @@ const Services = () => {
                     $49.99
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

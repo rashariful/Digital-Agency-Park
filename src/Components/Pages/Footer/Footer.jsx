@@ -27,10 +27,10 @@ const Footer = () => {
             {/* <!-- logo - end --> */}
 
             <p className="mb-6 text-gray-400 sm:pr-8">
-              We Osicl an authorized Representative <br /> of institutes in
-              Canada, USA, UK and Ireland <br /> and a few other countries In
-              Europe Hungary, <br />
-              Czech Republic, Germany, Poland.
+              We are a dynamic digital agency that helps businesses
+              navigate the ever-changing digital landscape. Our team of
+              experienced professionals specializes in crafting customized
+              digital strategies that drive results.
             </p>
             <div className=" flex flex-col gap-3 mb-8">
               <div className="flex gap-3 items-center">
@@ -39,8 +39,8 @@ const Footer = () => {
                   to="#"
                   className=" text-gray-400 transition duration-100 hover:text-blue-500 active:text-blue-600"
                 >
-                  218, sahera tropical centre 3rd floor, <br /> elephant road,
-                  Dhaka-1205.
+                  Road # 03, House # 03, Nikunja 02, <br /> Dhaka Bangladesh
+                  1229
                 </Link>
               </div>
               <div className="flex gap-3 items-center">
@@ -49,7 +49,7 @@ const Footer = () => {
                   to="#"
                   className=" text-gray-400 transition duration-100 hover:text-blue-500 active:text-blue-600"
                 >
-                  +88017018-48076
+                  +8801850-273117
                 </Link>
               </div>
               <div className="flex gap-3 items-center">
@@ -58,7 +58,7 @@ const Footer = () => {
                   to="#"
                   className=" text-gray-400 transition duration-100 hover:text-blue-500 active:text-blue-600"
                 >
-                  osic213@gmail.com
+                  digitalagencypark@gmail.com
                 </Link>
               </div>
             </div>

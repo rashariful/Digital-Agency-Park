@@ -1,16 +1,10 @@
 import { useState, useEffect } from 'react';
-import img1 from '../../../../../Assets/sl-1.svg'
-import img2 from '../../../../../Assets/sl-2.svg'
-import img3 from '../../../../../Assets/sl-3.svg'
+import img1 from '../../../../../Assets/sl-1.png'
+import img2 from '../../../../../Assets/sl-2.png'
+import img3 from '../../../../../Assets/sl-3.png'
 
 const Slider = () => {
   const images = [
-    // {
-    //     title: 'this is title',
-    //     des: 'description',
-    //     btn: "get contact",
-    //     img1
-    // },
     img1,
     img2,
     img3,
