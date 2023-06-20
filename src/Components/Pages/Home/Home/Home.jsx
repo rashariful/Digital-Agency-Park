@@ -7,13 +7,15 @@ import Testimonials from '../Testimonials/Testimonials';
 import Banner from './Banner/Banner';
 import Slider from './Slider/Slider';
 import Sdlc from './Sdlc/Sdlc';
+import Service from "./service/Service"
 
 const Home = () => {
     return (
         <div>
-           {/* <section> <Banner/> </section> */}
-           <section> <Slider/> </section>
+           <section className=''> <Banner/> </section>
+           <section className=''> <Slider/> </section>
            <section> <Sdlc/> </section>
+           <section> <Service/> </section>
            <section> <Services/> </section>
            <section> <Team/> </section>
            <section> <OurClient/> </section>

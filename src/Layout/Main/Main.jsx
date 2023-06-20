@@ -7,7 +7,7 @@ import Navbar from '../../Components/Pages/Header/Navbar';
 const Main = () => {
     return (
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>

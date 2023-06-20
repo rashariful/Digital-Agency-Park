@@ -68,11 +68,11 @@ const Header = () => {
 
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-between ml-5 mr-5">
          
-         <ul className="flex gap-8 capitalize text-gray-600 mr-3 text-lg font-semibold transition duration-100">
+         <ul className="flex flex-wrap gap-4 sm:gap-8 capitalize text-gray-600 mr-3 text-lg font-semibold transition duration-100">
          {menuItems}
           </ul> 
         </nav>
-         <div className="">
+         <div className="mt-4 sm:mt-0">
             <button className="uppercase text-center py-4 px-12 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] items-center hover:from-[#1a43d6] hover:to-[#9b22d3] border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
             Get a quote
             </button>

@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+
+      myFont: ['Poppins', "sans-serif"],
+    }
+   
   },
   plugins: [require("daisyui")],
 }

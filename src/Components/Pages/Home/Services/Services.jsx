@@ -13,6 +13,7 @@ const Services = () => {
             <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
               Crasex odio, luctus vel rhoncus quis, pellentesque a urna.
             </p>
+           
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
@@ -43,7 +44,9 @@ const Services = () => {
                 </div>
 
                 <div className="flex flex-col items-end">
-                  <span className="text-gray-600 lg:text-lg font-bold">$29.99</span>
+                  <span className="text-gray-600 lg:text-lg font-bold">
+                    $29.99
+                  </span>
                 </div>
               </div>
             </div>
@@ -74,7 +77,9 @@ const Services = () => {
                 </div>
 
                 <div className="flex flex-col items-end">
-                  <span className="text-gray-600 lg:text-lg font-bold">$29.99</span>
+                  <span className="text-gray-600 lg:text-lg font-bold">
+                    $29.99
+                  </span>
                 </div>
               </div>
             </div>
@@ -106,7 +111,9 @@ const Services = () => {
                 </div>
 
                 <div className="flex flex-col items-end">
-                  <span className="text-gray-600 lg:text-lg font-bold">$35.00</span>
+                  <span className="text-gray-600 lg:text-lg font-bold">
+                    $35.00
+                  </span>
                 </div>
               </div>
             </div>
@@ -138,7 +145,9 @@ const Services = () => {
                 </div>
 
                 <div className="flex flex-col items-end">
-                  <span className="text-gray-600 lg:text-lg font-bold">$49.99</span>
+                  <span className="text-gray-600 lg:text-lg font-bold">
+                    $49.99
+                  </span>
                 </div>
               </div>
             </div>
