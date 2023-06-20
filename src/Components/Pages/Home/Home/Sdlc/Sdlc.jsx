@@ -4,7 +4,7 @@ import tab from '../../../../../Assets/tablet-01.png'
 const Sdlc = () => {
     return (
       <section class="text-gray-600 body-font pt-32">
-      <h2 className="text-3xl font-bold text-center mb-8">HOW WE WORK</h2>
+      <h2 className="text-3xl font-bold text-center capitalize mb-8">How we work together</h2>
       <p className="mb-16 text-center text-slate-400 md:mb-12 xl:text-lg">
         Read why thousands of marketers, writers, and entrepreneurs love us so
         much.

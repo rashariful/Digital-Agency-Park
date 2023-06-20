@@ -14,8 +14,8 @@ const Home = () => {
         <div>
            <section className=''> <Banner/> </section>
            <section className=''> <Slider/> </section>
-           <section> <Sdlc/> </section>
            <section> <Service/> </section>
+           <section> <Sdlc/> </section>
            <section> <Services/> </section>
            <section> <Team/> </section>
            <section> <OurClient/> </section>

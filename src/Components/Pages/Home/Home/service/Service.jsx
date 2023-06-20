@@ -7,7 +7,7 @@ import sv4 from "../../../../../Assets/sv-5.png";
 const service = () => {
   return (
     <section>
-      <div className="container mx-auto px-8 mb-52">
+      <div className="container mx-auto px-8 my-52">
         <div className="flex flex-col sm:flex-row gap-10 items-center justify-between">
           <div className="grid sm:grid-cols-2 overflow-hidden lg:grid-cols-2 gap-6">
             <div className="border h-auto w-96 rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-100">
