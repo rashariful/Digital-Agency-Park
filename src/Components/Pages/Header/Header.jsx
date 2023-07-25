@@ -28,16 +28,20 @@ const Header = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="hover:text-indigo-500 active:text-indigo-700">
-        <Link to="">services</Link>
-      </li>
-      <li className="hover:text-indigo-500 active:text-indigo-700">
         <Link to="/about-us">About</Link>
       </li>
+      <li className="hover:text-indigo-500 active:text-indigo-700">
+        <Link to="/services">services</Link>
+      </li>
+      <li className="hover:text-indigo-500 active:text-indigo-700">
+        <Link to="/">All Product</Link>
+      </li>
+      
       <li className="hover:text-indigo-500 active:text-indigo-700">
         <Link to="/blog">Blog</Link>
       </li>
       <li className="hover:text-indigo-500 active:text-indigo-700">
-        <Link to="/contact-us">Contact</Link>
+        <Link to="/contact-us">Contact Us</Link>
       </li>
 
       <li></li>

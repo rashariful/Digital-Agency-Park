@@ -10,7 +10,7 @@ const Newsletter = () => {
               <img
                 src="https://images.unsplash.com/photo-1604076913837-52ab5629fba9?auto=format&q=75&fit=crop&w=750"
                 loading="lazy"
-                alt="Photo by mymind"
+                alt=" by mymind"
                 className="w-full h-full object-cover object-center absolute inset-0"
               />
             </div>

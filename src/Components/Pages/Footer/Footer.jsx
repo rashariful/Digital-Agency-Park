@@ -66,7 +66,7 @@ const Footer = () => {
             {/* <!-- social - start --> */}
             <div className="flex gap-4">
               <Link
-                to="#"
+                to="https://www.facebook.com/Digitalagencypark"
                 target="_blank"
                 className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
@@ -74,7 +74,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                to="#"
+               to="https://www.facebook.com/Digitalagencypark"
                 target="_blank"
                 className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
@@ -82,7 +82,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                to="#"
+               to="https://www.facebook.com/Digitalagencypark"
                 target="_blank"
                 className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >
@@ -90,7 +90,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                to="#"
+               to="https://www.facebook.com/Digitalagencypark"
                 target="_blank"
                 className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
               >

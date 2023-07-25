@@ -11,6 +11,7 @@ const Slider = () => {
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
+ 
 
   const nextSlide = () => {
     setActiveIndex((prevIndex) => (prevIndex + 1) % images.length);

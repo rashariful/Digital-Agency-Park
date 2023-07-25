@@ -10,7 +10,7 @@ const About = () => {
       <div className="relative mb-20">
         <img
           src="https://cdn.pixabay.com/photo/2016/11/14/02/55/path-1822448_1280.jpg"
-          alt="Top Image"
+          alt="Top "
           className="w-full object-cover h-96"
         />
         <h3 className="absolute inset-0 flex items-center justify-center text-white font-bold text-4xl ">

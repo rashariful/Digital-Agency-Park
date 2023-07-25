@@ -34,7 +34,7 @@ const Navbar = () => {
             </span>
 
             <span className="text-gray-500 ">
-              <span className="text-gray-300">digitalagencypark@gmail.com</span>
+              <span className="text-gray-300 font-extralight">digitalagencypark@gmail.com</span>
             </span>
           </div>
         </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <div>
             <a
-              href="https://www.facebook.com/dhakacars.co"
+              href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-300 hover:text-slate-500 transition-colors duration-300"
@@ -53,7 +53,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://www.facebook.com/dhakacars.co"
+              href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-300 hover:text-slate-500 transition-colors duration-300"
@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://www.linkedin.com/company/dhakacar/"
+              href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-300 hover:text-slate-500 transition-colors duration-300"

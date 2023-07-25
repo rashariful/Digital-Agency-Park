@@ -6,17 +6,48 @@ import {
   FaLinkedin,
   FaTwitterSquare,
 } from "react-icons/fa";
-import prf from "../../../../Assets/sv-1.png";
+
+import tm1 from "../../../../Assets/tm-1.jpg"
+import tm2 from "../../../../Assets/tm-2.jpg"
+import tm3 from "../../../../Assets/tm-3.jpg"
+import tm4 from "../../../../Assets/tm-4.avif"
 
 const teams = [
   {
     id: 1,
-    name: "name here",
+    name: "Mr jhn",
+    titiel: "Digital Marketer",
+    fbUrl: "https://www.facebook.com/rashariful",
+    linkUrl: "https://www.facebook.com/rashariful",
+    twtUrl: "https://www.facebook.com/rashariful",
+    img: tm1,
+  },
+  {
+    id: 2,
+    name: "Md shariful Islam",
     titiel: "Founder / CEO",
     fbUrl: "https://www.facebook.com/rashariful",
     linkUrl: "https://www.facebook.com/rashariful",
     twtUrl: "https://www.facebook.com/rashariful",
-    img: prf,
+    img: tm2,
+  },
+  {
+    id: 3,
+    name: "Md Ismail hossain",
+    titiel: "Web developer",
+    fbUrl: "https://www.facebook.com/rashariful",
+    linkUrl: "https://www.facebook.com/rashariful",
+    twtUrl: "https://www.facebook.com/rashariful",
+    img: tm3,
+  },
+  {
+    id: 4,
+    name: "Md Rashidul hasan",
+    titiel: "Graphic design",
+    fbUrl: "https://www.facebook.com/rashariful",
+    linkUrl: "https://www.facebook.com/rashariful",
+    twtUrl: "https://www.facebook.com/rashariful",
+    img: tm4,
   },
 ];
 
