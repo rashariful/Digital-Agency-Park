@@ -1,6 +1,7 @@
 import About from "../Components/Pages/Home/About/About";
 import Blog from "../Components/Pages/Home/Blog/Blog";
 import Contact from "../Components/Pages/Home/Contact/Contact";
+import Details from "../Components/Pages/Home/Home/Details/Details";
 import NotFound from "../Components/Pages/Home/NotFound/NotFound";
 import Services from "../Components/Pages/Home/Services/Services";
 
@@ -25,6 +26,14 @@ const router = createBrowserRouter([
             {
                 path: "/services",
                 element: <Services/>
+            },
+            {
+                path: "/details/:id",
+                element: <Details/> , 
+                loader: async ({ params }) => {
+                    return fetch(`https://portfolio-server-hazel.vercel.app/api/v1/project/${params?.id}`);
+                  },
+                
             },
             {
                 path: "/about-us",

@@ -8,6 +8,7 @@ import Banner from './Banner/Banner';
 import Slider from './Slider/Slider';
 import Sdlc from './Sdlc/Sdlc';
 import Service from "./service/Service"
+import OurSolution from './OurSolution/OurSolution';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
            {/* <section className=''> <Slider/> </section> */}
            <section> <Service/> </section>
            <section> <Sdlc/> </section>
+           <section> <OurSolution/> </section>
            <section> <Portfolio/> </section>
            <section> <Team/> </section>
            <section> <OurClient/> </section>
