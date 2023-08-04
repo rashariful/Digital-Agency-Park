@@ -33,7 +33,7 @@ const OurSolution = () => {
   };
   return (
     <div className="mx-auto max-w-screen-2xl">
-      <h2 className="text-center mt-20 font-bold text-2xl uppercase">
+      <h2 className="text-3xl font-bold text-center capitalize mb-8">
         Our Products
       </h2>
       <p className="text-center my-3 leading-6 text-gray-500">
@@ -50,8 +50,8 @@ const OurSolution = () => {
               <ul className="mb-10">
                 <li className={`cursor-pointer leading-normal py-2 px-3 ml-2  ${
               activeTab === index
-                ? "bg-rose-500 rounded text-slate-50"
-                : "bg-rose-200 rounded text-rose-500"
+                ? "bg-blue-500 rounded text-slate-50"
+                : "bg-blue-200 rounded text-blue-500"
             }`}>{tab.title}</li>
               </ul>
             </div>

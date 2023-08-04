@@ -12,29 +12,30 @@ const Navbar = () => {
 
   return (
     <nav
-      className="sticky top-0 z-30 w-full"
+      className="sticky top-0 z-30"
     >
-      <div className="flex flex-col sm:flex-row flex-wrap justify-between items-center bg-slate-800 h-8 px-10">
+      <div className=" bg-slate-800 py-3 px-6 overflow-x-hidden">
+      <div className="flex flex-wrap flex-col gap-3 justify-between md:flex-row items-center">
         <div className="flex justify-between gap-5">
           <div className="flex items-center gap-3">
 
-            <span className="text-slate-300 hover:text-slate-500 transition-colors duration-300">
+            <span className="text-blue-400 hover:text-slate-500 transition-colors duration-300">
               <FaPhoneSquare size={18} />
             </span>
            
-              <a className="text-gray-300" href="tel:+8801850273117">
+              <a className="text-slate-400" href="tel:+8801850273117">
                 +8801850273117
               </a>
            
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-slate-300 hover:text-slate-500 transition-colors duration-300">
+            <span className="text-blue-400 hover:text-slate-500 transition-colors duration-300">
               <MdEmail size={18} />
             </span>
 
-            <span className="text-gray-500 ">
-              <span className="text-gray-300 font-extralight">digitalagencypark@gmail.com</span>
+            <span className="">
+              <span className="text-slate-400 font-extralight">digitalagencypark@gmail.com</span>
             </span>
           </div>
         </div>
@@ -46,7 +47,7 @@ const Navbar = () => {
               href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-300 hover:text-slate-500 transition-colors duration-300"
+              className="text-blue-400 hover:text-slate-500 transition-colors duration-300"
             >
               <FaFacebookSquare size={18} />
             </a>
@@ -56,7 +57,7 @@ const Navbar = () => {
               href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-300 hover:text-slate-500 transition-colors duration-300"
+              className="text-blue-400 hover:text-slate-500 transition-colors duration-300"
             >
               <FaInstagramSquare size={18} />
             </a>
@@ -66,12 +67,13 @@ const Navbar = () => {
               href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-300 hover:text-slate-500 transition-colors duration-300"
+              className="text-blue-400 hover:text-slate-500 transition-colors duration-300"
             >
               <FaLinkedin size={18} />
             </a>
           </div>
         </div>
+      </div>
       </div>
     </nav>
   );

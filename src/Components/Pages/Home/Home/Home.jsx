@@ -9,20 +9,22 @@ import Slider from './Slider/Slider';
 import Sdlc from './Sdlc/Sdlc';
 import Service from "./service/Service"
 import OurSolution from './OurSolution/OurSolution';
+import TestingSlider from './Testing/TestingSlider';
 
 const Home = () => {
     return (
         <div>
-           <section className=''> <Banner/> </section>
-           {/* <section className=''> <Slider/> </section> */}
+           {/* <section> <Banner/> </section> */}
+           <section> <Slider/> </section>
            <section> <Service/> </section>
-           <section> <Sdlc/> </section>
+           {/* <section> <Sdlc/> </section> */}
            <section> <OurSolution/> </section>
-           <section> <Portfolio/> </section>
+           {/* <section> <Portfolio/> </section> */}
            <section> <Team/> </section>
-           <section> <OurClient/> </section>
-           <section> <Testimonials/> </section>
+           <section> <TestingSlider/> </section>
+           {/* <section> <Testimonials/> </section> */}
            {/* <section> <Newsletter/> </section> */}
+           <section> <OurClient/> </section>
         </div>
     );
 };

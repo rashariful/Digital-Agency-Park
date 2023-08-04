@@ -47,12 +47,12 @@ const Ecommerce = () => {
                       <div className="card-actions">
                         <div className="flex flex-col md:flex-row gap-5 text-white pt-8 text-sm md:text-lg relative ml-4 md:ml-5 mb-3">
                           <a href={project.liveLink}>
-                            <button className="btn btn-sm btn-primary">
+                            <button className="bg-blue-500 px-8 py-1 rounded capitalize hover:bg-blue-600 transition duration-300">
                               Live side
                             </button>
                           </a>
                           <a href={project.serverLink}>
-                            <button className="btn btn-sm btn-outline">
+                            <button className="border border-blue-500 text-blue-600 px-6 py-1 rounded capitalize hover:bg-slate-700 hover:border-slate-300 hover:text-slate-50 transition duration-700">
                               Source code
                             </button>
                           </a>

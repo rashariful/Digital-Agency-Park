@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Team from "../Team/Team";
 
 // import "../../../../styles/AboutCompStyles.css";
 // import {car,carout,carshop,worker} from '../../../../assets/AboutCompImages';
@@ -158,6 +159,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Team/>
     </div>
   );
 };

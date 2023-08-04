@@ -6,11 +6,12 @@ import sv4 from "../../../../../Assets/sv-5.png";
 
 const service = () => {
   return (
-    <section>
-      <div className="container mx-auto px-8 my-52">
-        <div className="flex flex-col sm:flex-row gap-10 items-center justify-between">
+    <section className="bg-white">
+      <div className="container mx-auto px-8 py-16">
+        <div className="flex flex-col sm:flex-row gap-16 items-start justify-between">
           <div className="grid sm:grid-cols-2 overflow-hidden lg:grid-cols-2 gap-6">
-            <div className="border h-auto w-96 rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-100">
+            
+            <div className="border h-auto rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-500">
               <img src={sv3} alt="" className="w-20 h-20" />
               <p className="text-lg font-bold text-gray-700 mt-5">
                 Crafting Exceptional UI/UX Solutions
@@ -21,7 +22,7 @@ const service = () => {
               </p>
             </div>
 
-            <div className="border h-auto w-96 rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-100">
+            <div className="border h-auto rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-500">
               <img src={sv4} alt="" className="w-20 h-20" />
               <p className="text-lg font-bold mt-5">
                 Professional Web Development Services
@@ -32,7 +33,7 @@ const service = () => {
               </p>
             </div>
 
-            <div className="border h-auto w-96 rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-100">
+            <div className="border h-auto rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-500">
               <img src={sv2} alt="" className="w-20 h-20" />
               <p className="text-lg font-bold text-gray-700 mt-5">
                 Unlocking Your Business's Online Potential
@@ -43,7 +44,7 @@ const service = () => {
               </p>
             </div>
 
-            <div className="border h-auto w-96 rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-100">
+            <div className="border h-auto rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-500">
               <img src={sv1} alt="" className="w-20 h-20" />
               <p className="text-lg font-bold text-gray-700 mt-5">
                 Effective SEO Strategies for Success
@@ -56,7 +57,7 @@ const service = () => {
             </div>
           </div>
           {/* right side content */}
-          <div className="flex-1 text-center">
+          <div className="text-left">
             <h3 className="text-lg font-semibold">ONE-STOP SOLUTION</h3>
             <h3 className="text-4xl my-8 font-bold">
               Smart solutions, <br /> real-time results

@@ -8,16 +8,15 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <section>
-          <div className="relative mb-20">
-            <div className="bg-gradient-to-r from-cyan-500 to-blue-500 w-full">
-
-        <img
-          src={services}
-          alt="Top "
-          className="w-full object-cover h-96 bg-gradient-to-r from-cyan-500 to-blue-500"
-        />
-            </div>
+    <section className="bg-white">
+      <div className="relative">
+        <div className="bg-gradient-to-r from-cyan-500 to-blue-500 w-full">
+          <img
+            src={services}
+            alt="Top "
+            className="w-full object-cover h-96 bg-gradient-to-r from-cyan-500 to-blue-500"
+          />
+        </div>
         <h3 className="absolute inset-0 flex items-center justify-center text-white font-bold text-4xl ">
           Services
         </h3>
@@ -30,7 +29,7 @@ const Services = () => {
           </ul>
         </div>
       </div>
-      <div className="container mx-auto px-8 my-52">
+      <div className="container mx-auto px-8 py-32">
         <div className="flex flex-col sm:flex-row gap-10 items-center justify-between">
           <div className="grid sm:grid-cols-2 overflow-hidden lg:grid-cols-2 gap-6">
             <div className="border h-auto w-96 rounded-md shadow-lg p-5 hover:border-blue-500 transition-all duration-100">

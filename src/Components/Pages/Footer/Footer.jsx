@@ -6,6 +6,7 @@ import {
   FaInstagramSquare,
   FaYoutube,
 } from "react-icons/fa";
+import logo from "../../../Assets/log-l.svg"
 import { MdLocationOn, MdEmail, MdCall } from "react-icons/md";
 
 const Footer = () => {
@@ -21,7 +22,7 @@ const Footer = () => {
                 className="inline-flex items-center gap-2 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6C38F8] via-[#6C38F8] to-[#BB2BFF] md:text-2xl"
                 aria-label="logo"
               >
-                Digital Agency park
+                <img src={logo} className="w-64" alt="" />
               </Link>
             </div>
             {/* <!-- logo - end --> */}
