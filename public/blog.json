@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "UI/UX Design: Crafting Delightful Experiences",
+      "sort_description": "Explore the principles and techniques of UI/UX design.",
+      "full_description": "Discover the art of UI/UX design and how it influences user satisfaction and engagement.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*doYHfVKgVncrGIL5jmSOMg.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Web Design Trends 2023",
+      "sort_description": "Stay ahead with the latest web design trends.",
+      "full_description": "Explore the top web design trends expected in 2023 that elevate user experiences.",
+      "image": "https://codetheorem.co/blogs/wp-content/uploads/2023/02/Web-Design-Trends-2023.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Digital Marketing Strategies",
+      "sort_description": "Learn effective digital marketing strategies.",
+      "full_description": "Discover tactics to reach your target audience and achieve success in the digital realm.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*s_Jk5tm0l-r6gR1qFFw8IA.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Mastering Web Development",
+      "sort_description": "Explore fundamentals and best practices of web development.",
+      "full_description": "Gain insights into web development technologies and frameworks for seamless experiences.",
+      "image": "https://stackcodify.com/wp-content/uploads/2021/07/web-development.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Demystifying SEO",
+      "sort_description": "Learn the ins and outs of SEO.",
+      "full_description": "Uncover tips to improve your website's search engine rankings and online visibility.",
+      "image": "https://www.sirensearch.co.uk/wp-content/uploads/2019/05/SEO-FB.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Content Marketing Power",
+      "sort_description": "Harness the potential of content marketing.",
+      "full_description": "Craft compelling content that engages your audience and builds lasting connections.",
+      "image": "https://socialplanner.io/blog/wp-content/uploads/2020/07/Content-Marketing-2.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Mobile App Development",
+      "sort_description": "Discover essentials of mobile app development.",
+      "full_description": "Build functional and intuitive mobile experiences for a competitive presence.",
+      "image": "https://assets-global.website-files.com/6410ebf8e483b5bb2c86eb27/6410ebf8e483b5758186fbd8_ABM%20college%20mobile%20app%20dev%20main.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Cybersecurity Best Practices",
+      "sort_description": "Learn to protect your business from digital threats.",
+      "full_description": "Create a robust cybersecurity strategy to safeguard your digital assets.",
+      "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2022/09/23/232361.jpg"
+    }
+  ]

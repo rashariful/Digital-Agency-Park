@@ -21,10 +21,10 @@ const Home = () => {
            <section> <OurSolution/> </section>
            {/* <section> <Portfolio/> </section> */}
            <section> <Team/> </section>
+           <section> <OurClient/> </section>
            <section> <TestingSlider/> </section>
            {/* <section> <Testimonials/> </section> */}
            {/* <section> <Newsletter/> </section> */}
-           <section> <OurClient/> </section>
         </div>
     );
 };

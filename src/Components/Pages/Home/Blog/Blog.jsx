@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
+
 
 const Blog = () => {
+  const [blogs, setBlogs] = useState([])
+
+  useEffect(()=>{
+   fetch('./blog.json')
+   .then(res => res.json())
+   .then(data => setBlogs(data))
+  },[])
+  // useEffect(()=>{
+  //   axios.get("https://dummyjson.com/products")
+  //   .then(res => console.log(res))
+  // },[])
+
   return (
     <div className=" bg-white ">
       <div className="relative mb-20">
@@ -24,7 +38,7 @@ const Blog = () => {
       </div>
       <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-          {/* <!-- text - start --> */}
+         
           <div className="mb-10 md:mb-16">
             <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
               Blog
@@ -36,37 +50,37 @@ const Blog = () => {
               text but is random or otherwise generated.
             </p>
           </div>
-          {/* <!-- text - end --> */}
+         
 
           <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8">
-            {/* <!-- article - start --> */}
-            <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
-              <a
-                href="#"
+            {
+              blogs.map(blog =>(
+
+            <div key={blog.id} className="flex flex-col overflow-hidden rounded-lg border bg-white">
+              <Link
+              to='/'
                 className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
               >
                 <img
-                  src="https://cdn.pixabay.com/photo/2014/03/28/00/18/car-299772_1280.jpg"
+                  src={blog.image}
                   loading="lazy"
-                  alt="Photo by Minh Pham"
+                  alt={blog.title}
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
-              </a>
+              </Link>
 
               <div className="flex flex-1 flex-col p-4 sm:p-6">
                 <h2 className="mb-2 text-lg font-semibold text-gray-800">
-                  <a
-                    href="#"
+                  <Link
+                   to='/'
                     className="transition duration-100 hover:text-blue-500 active:text-blue-600"
                   >
-                    New trends in Tech
-                  </a>
+                   {blog.title}
+                  </Link>
                 </h2>
 
                 <p className="mb-8 text-gray-500">
-                  This is a section of some simple filler text, also known as
-                  placeholder text. It shares some characteristics of a real
-                  written text.
+                {blog.sort_description}
                 </p>
 
                 <div className="mt-auto flex items-end justify-between">
@@ -94,178 +108,10 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            {/* <!-- article - end --> */}
+              ))
+            }
+           
 
-            {/* <!-- article - start --> */}
-            <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
-              <a
-                href="#"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <img
-                  src="https://cdn.pixabay.com/photo/2021/09/07/11/53/car-6603726_1280.jpg"
-                  loading="lazy"
-                  alt="Photo by Lorenzo Herrera"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-              </a>
-
-              <div className="flex flex-1 flex-col p-4 sm:p-6">
-                <h2 className="mb-2 text-lg font-semibold text-gray-800">
-                  <a
-                    href="#"
-                    className="transition duration-100 hover:text-blue-500 active:text-blue-600"
-                  >
-                    Working with legacy stacks
-                  </a>
-                </h2>
-
-                <p className="mb-8 text-gray-500">
-                  This is a section of some simple filler text, also known as
-                  placeholder text. It shares some characteristics of a real
-                  written text.
-                </p>
-
-                <div className="mt-auto flex items-end justify-between">
-                  <div className="flex items-center gap-2">
-                    <div className="h-10 w-10 shrink-0 overflow-hidden rounded-full bg-gray-100">
-                      <img
-                        src="https://cdn.pixabay.com/photo/2021/09/07/11/53/car-6603726_1280.jpg"
-                        loading="lazy"
-                        alt="Photo by peter bucks"
-                        className="h-full w-full object-cover object-center"
-                      />
-                    </div>
-
-                    <div>
-                      <span className="block text-blue-500">Jane Jackobs</span>
-                      <span className="block text-sm text-gray-400">
-                        April 07, 2023
-                      </span>
-                    </div>
-                  </div>
-
-                  <span className="rounded border px-2 py-1 text-sm text-gray-500">
-                    Article
-                  </span>
-                </div>
-              </div>
-            </div>
-            {/* <!-- article - end --> */}
-
-            {/* <!-- article - start --> */}
-            <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
-              <a
-                href="#"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <img
-                  src="https://cdn.pixabay.com/photo/2019/07/07/14/03/fiat-500-4322521_1280.jpg"
-                  loading="lazy"
-                  alt="Photo by Magicle"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-              </a>
-
-              <div className="flex flex-1 flex-col p-4 sm:p-6">
-                <h2 className="mb-2 text-lg font-semibold text-gray-800">
-                  <a
-                    href="#"
-                    className="transition duration-100 hover:text-blue-500 active:text-blue-600"
-                  >
-                    10 best smartphones for devs
-                  </a>
-                </h2>
-
-                <p className="mb-8 text-gray-500">
-                  This is a section of some simple filler text, also known as
-                  placeholder text. It shares some characteristics of a real
-                  written text.
-                </p>
-
-                <div className="mt-auto flex items-end justify-between">
-                  <div className="flex items-center gap-2">
-                    <div className="h-10 w-10 shrink-0 overflow-hidden rounded-full bg-gray-100">
-                      <img
-                        src="https://cdn.pixabay.com/photo/2016/11/23/17/24/woman-1853936_1280.jpg"
-                        loading="lazy"
-                        alt="Photo by Jassir Jonis"
-                        className="h-full w-full object-cover object-center"
-                      />
-                    </div>
-
-                    <div>
-                      <span className="block text-blue-500">Tylor Grey</span>
-                      <span className="block text-sm text-gray-400">
-                        March 15, 2023
-                      </span>
-                    </div>
-                  </div>
-
-                  <span className="rounded border px-2 py-1 text-sm text-gray-500">
-                    Article
-                  </span>
-                </div>
-              </div>
-            </div>
-            {/* <!-- article - end --> */}
-
-            {/* <!-- article - start --> */}
-            <div className="flex flex-col overflow-hidden rounded-lg border bg-white">
-              <a
-                href="#"
-                className="group relative block h-48 overflow-hidden bg-gray-100 md:h-64"
-              >
-                <img
-                  src="https://cdn.pixabay.com/photo/2016/11/22/20/10/dog-1850465_1280.jpg"
-                  loading="lazy"
-                  alt="Photo by Martin Sanchez"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-              </a>
-
-              <div className="flex flex-1 flex-col p-4 sm:p-6">
-                <h2 className="mb-2 text-lg font-semibold text-gray-800">
-                  <a
-                    href="#"
-                    className="transition duration-100 hover:text-blue-500 active:text-blue-600"
-                  >
-                    8 High performance Notebooks
-                  </a>
-                </h2>
-
-                <p className="mb-8 text-gray-500">
-                  This is a section of some simple filler text, also known as
-                  placeholder text. It shares some characteristics of a real
-                  written text.
-                </p>
-
-                <div className="mt-auto flex items-end justify-between">
-                  <div className="flex items-center gap-2">
-                    <div className="h-10 w-10 shrink-0 overflow-hidden rounded-full bg-gray-100">
-                      <img
-                        src="https://cdn.pixabay.com/photo/2016/11/23/17/24/woman-1853936_1280.jpg"
-                        loading="lazy"
-                        alt="Photo by Aiony Haust"
-                        className="h-full w-full object-cover object-center"
-                      />
-                    </div>
-
-                    <div>
-                      <span className="block text-blue-500">Ann Park</span>
-                      <span className="block text-sm text-gray-400">
-                        January 27, 2023
-                      </span>
-                    </div>
-                  </div>
-
-                  <span className="rounded border px-2 py-1 text-sm text-gray-500">
-                    Article
-                  </span>
-                </div>
-              </div>
-            </div>
-            {/* <!-- article - end --> */}
           </div>
         </div>
       </div>
