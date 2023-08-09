@@ -1,32 +1,52 @@
-import React from 'react';
-import Newsletter from '../Newsletter/Newsletter';
-import OurClient from '../OurClient/OurClient';
-import Portfolio from '../Portfolio/Portfolio';
-import Team from '../Team/Team';
-import Testimonials from '../Testimonials/Testimonials';
-import Banner from './Banner/Banner';
-import Slider from './Slider/Slider';
-import Sdlc from './Sdlc/Sdlc';
-import Service from "./service/Service"
-import OurSolution from './OurSolution/OurSolution';
-import TestingSlider from './Testing/TestingSlider';
+import React from "react";
+import Newsletter from "../Newsletter/Newsletter";
+import OurClient from "../OurClient/OurClient";
+import Portfolio from "../Portfolio/Portfolio";
+import Team from "../Team/Team";
+import Testimonials from "../Testimonials/Testimonials";
+import Banner from "./Banner/Banner";
+import Slider from "./Slider/Slider";
+import Sdlc from "./Sdlc/Sdlc";
+import Service from "./service/Service";
+import OurSolution from "./OurSolution/OurSolution";
+import TestingSlider from "./Testing/TestingSlider";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Home = () => {
-    return (
-        <div>
-           {/* <section> <Banner/> </section> */}
-           <section> <Slider/> </section>
-           <section> <Service/> </section>
-           {/* <section> <Sdlc/> </section> */}
-           <section> <OurSolution/> </section>
-           {/* <section> <Portfolio/> </section> */}
-           <section> <Team/> </section>
-           <section> <OurClient/> </section>
-           <section> <TestingSlider/> </section>
-           {/* <section> <Testimonials/> </section> */}
-           {/* <section> <Newsletter/> </section> */}
-        </div>
-    );
+  return (
+    <div>
+      {/* <section> <Banner/> </section> */}
+      <section>
+        {" "}
+        <Slider />{" "}
+      </section>
+      <section>
+        {" "}
+        <Service />{" "}
+      </section>
+      {/* <section> <Sdlc/> </section> */}
+      <section>
+        {" "}
+        <OurSolution />{" "}
+      </section>
+      {/* <section> <Portfolio/> </section> */}
+      <section>
+        {" "}
+        <Team />{" "}
+      </section>
+      <section>
+        {" "}
+        <OurClient />{" "}
+      </section>
+      <section>
+        {" "}
+        <TestingSlider />{" "}
+      </section>
+      {/* <section> <Testimonials/> </section> */}
+      {/* <section> <Newsletter/> </section> */}
+      <MessengerCustomerChat pageId="106055157950858" appId="199380903116422" />
+    </div>
+  );
 };
 
 export default Home;
