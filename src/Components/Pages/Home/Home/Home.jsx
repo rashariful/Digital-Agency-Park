@@ -10,7 +10,7 @@ import Sdlc from "./Sdlc/Sdlc";
 import Service from "./service/Service";
 import OurSolution from "./OurSolution/OurSolution";
 import TestingSlider from "./Testing/TestingSlider";
-import MessengerCustomerChat from "react-messenger-customer-chat";
+// import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Home = () => {
   return (
@@ -44,7 +44,7 @@ const Home = () => {
       </section>
       {/* <section> <Testimonials/> </section> */}
       {/* <section> <Newsletter/> </section> */}
-      <MessengerCustomerChat pageId="106055157950858" appId="199380903116422" />
+      {/* <MessengerCustomerChat pageId="106055157950858" appId="199380903116422" /> */}
     </div>
   );
 };
