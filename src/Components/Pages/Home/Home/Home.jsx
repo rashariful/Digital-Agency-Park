@@ -10,40 +10,25 @@ import Sdlc from "./Sdlc/Sdlc";
 import Service from "./service/Service";
 import OurSolution from "./OurSolution/OurSolution";
 import TestingSlider from "./Testing/TestingSlider";
+import Faq from "./Faq/Faq";
+import Choose from "./Choose/Choose";
+import WorkingWay from "./WorkingWay/WorkingWay";
+import Number from "./Number/Number";
 // import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Home = () => {
   return (
-    <div>
-      {/* <section> <Banner/> </section> */}
-      <section>
-        {" "}
-        <Slider />{" "}
-      </section>
-      <section>
-        {" "}
-        <Service />{" "}
-      </section>
-      {/* <section> <Sdlc/> </section> */}
-      <section>
-        {" "}
-        <OurSolution />{" "}
-      </section>
-      {/* <section> <Portfolio/> </section> */}
-      <section>
-        {" "}
-        <Team />{" "}
-      </section>
-      <section>
-        {" "}
-        <OurClient />{" "}
-      </section>
-      <section>
-        {" "}
-        <TestingSlider />{" "}
-      </section>
-      {/* <section> <Testimonials/> </section> */}
-      {/* <section> <Newsletter/> </section> */}
+    <div className="">  
+        <Slider />
+        <Service />
+        <OurSolution />
+        <Team />
+        <OurClient />
+        <WorkingWay />
+        <Faq />
+        <Choose />
+        <Number />
+        <TestingSlider />
       {/* <MessengerCustomerChat pageId="106055157950858" appId="199380903116422" /> */}
     </div>
   );

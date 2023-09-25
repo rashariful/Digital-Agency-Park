@@ -67,7 +67,7 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                className="border border-slate-400 rounded-md focus:border-rose-600 transition duration-75"
+                className="border w-full p-2 border-slate-400 rounded-md outline-primary transition duration-75"
                 placeholder='EG: "Sam OJeyinka"'
               />
               <br />
@@ -77,7 +77,7 @@ const Contact = () => {
                 Email <span className="text-rose-600">*</span>
               </label>
               <input
-                className="border border-slate-400 rounded-md focus:border-rose-600 transition duration-75"
+                className="border w-full p-2 border-slate-400 rounded-md outline-primary transition duration-75"
                 type="email"
                 placeholder="youremail@example.com"
               />
@@ -86,15 +86,17 @@ const Contact = () => {
               <label>
                 Message <span className="text-rose-600">*</span>
               </label>
-              <br />
-              <br />
+             
               <textarea
-                className="border border-slate-400 rounded-md focus:border-rose-600 transition duration-75"
+                className="border w-full p-2 border-slate-400 rounded-md outline-primary transition duration-75"
                 placeholder="Write here.."
               ></textarea>
-              <button className="btn mt-5 bg-[#FF4C30] border-none w-full hover:bg-[#FF4C40]">
+              <button className="btn mt-5 text-slate-50 bg-primary border-none w-full hover:bg-[#0067ede6]">
                 <FaEnvelopeOpenText className="mr-5" /> Send message
               </button>
+              {/* <PrimaryButton className="w-full bg-[#FF4C30]">
+              <FaEnvelopeOpenText className="mr-5" /> Send message
+              </PrimaryButton> */}
             </form>
           </div>
         </div>

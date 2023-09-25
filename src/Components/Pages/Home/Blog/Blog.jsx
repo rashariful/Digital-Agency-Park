@@ -82,8 +82,9 @@ const Blog = () => {
                 <p className="mb-8 text-gray-500">
                 {blog.sort_description}
                 </p>
+               
 
-                <div className="mt-auto flex items-end justify-between">
+                {/* <div className="mt-auto flex items-end justify-between">
                   <div className="flex items-center gap-2">
                     <div className="h-10 w-10 shrink-0 overflow-hidden rounded-full bg-gray-100">
                       <img
@@ -105,8 +106,11 @@ const Blog = () => {
                   <span className="rounded border px-2 py-1 text-sm text-gray-500">
                     Article
                   </span>
-                </div>
+                </div> */}
               </div>
+              <Link to="/" className="text-primary p-3 hover:underline">
+                Read more
+                </Link>
             </div>
               ))
             }
