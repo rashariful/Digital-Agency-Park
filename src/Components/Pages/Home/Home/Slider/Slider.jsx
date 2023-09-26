@@ -63,15 +63,15 @@ const Slider = () => {
           >
             <div className="flex max-w-xl flex-col pt-8 pb-16 lg:pt-32 lg:pb-48">
              
-              <p className="text-4xl leading-normal font-bold text-slate-600 mb-8">
+              <p className="text-4xl leading-normal font-bold text-slate-700 mb-8">
                 {img.title}
               </p>
             
               <p className="leading-6 text-slate-500 text-md">{img.des}</p>
 
               <div className="flex w-full mt-6 gap-2.5">
-                <button className="inline-block uppercase text-center w-32 h-10 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#2bb8ff] items-center hover:from-[#1a43d6] hover:to-[#2251d3] border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
-                  Call now
+                <button className="inline-block uppercase text-center w-52 h-10 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#2bb8ff] items-center hover:from-[#1a43d6] hover:to-[#2251d3] border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
+                free consultant
                 </button>
                 <button className="inline-block uppercase text-center w-32 h-10 text-white font-semibold bg-gradient-to-r from-[#0a153e] to-[#235b77] items-center hover:from-[#04103a] hover:to-[#2251d3] border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
                   Live demo

@@ -30,42 +30,42 @@ const Header = () => {
 
   const menuItems = (
     <React.Fragment>
-      <li className="font-semibold text-md text-slate-600 hover:text-rose-500 active:text-rose-700">
+      <li className="font-semibold text-md text-slate-600 hover:text-[#0067ED]">
         <NavLink to="/" style={({isActive, isPending})=>{
           return {
-            color: isActive ? "red" : "",
+            color: isActive ? "#0067ED" : "",
             // color: isPending ? "" : "",
           }
         }}>Home</NavLink>
       </li>
-      <li className="font-semibold text-md text-slate-600 hover:text-rose-500 active:text-rose-700">
+      <li className="font-semibold text-md text-slate-600 hover:text-[#0067ED]">
       <NavLink to="/about-us" style={({isActive, isPending})=>{
           return {
-            color: isActive ? "red" : "",
+            color: isActive ? "#0067ED" : "",
             // color: isPending ? "" : "",
           }
         }}>About</NavLink>
       </li>
-      <li className="font-semibold text-md text-slate-600 hover:text-rose-500 active:text-rose-700">
+      <li className="font-semibold text-md text-slate-600 hover:text-[#0067ED]">
       <NavLink to="/blog" style={({isActive, isPending})=>{
           return {
-            color: isActive ? "red" : "",
+            color: isActive ? "#0067ED" : "",
             // color: isPending ? "" : "",
           }
         }}>blog</NavLink>
       </li>
-      <li className="font-semibold text-md text-slate-600 hover:text-rose-500 active:text-rose-700">
+      <li className="font-semibold text-md text-slate-600 hover:text-[#0067ED]">
       <NavLink to="/services" style={({isActive, isPending})=>{
           return {
-            color: isActive ? "red" : "",
+            color: isActive ? "#0067ED" : "",
             // color: isPending ? "" : "",
           }
         }}>services</NavLink>
       </li>
-      <li className="font-semibold text-md text-slate-600 hover:text-rose-500 active:text-rose-700">
+      <li className="font-semibold text-md text-slate-600 hover:text-[#0067ED]">
       <NavLink to="/contact-us" style={({isActive, isPending})=>{
           return {
-            color: isActive ? "red" : "",
+            color: isActive ? "#0067ED" : "",
             // color: isPending ? "" : "",
           }
         }}>contact</NavLink>
@@ -81,7 +81,7 @@ const Header = () => {
   //     <li className="font-semibold text-md text-slate-600 hover:text-blue-500 active:text-blue-700">
   //       <NavLink to="/" style={({isActive, isPending})=>{
   //         return {
-  //           color: isActive ? "red" : "",
+  //           color: isActive ? "#0067ED" : "",
   //           // color: isPending ? "" : "",
   //         }
   //       }}>Home</NavLink>
@@ -89,7 +89,7 @@ const Header = () => {
   //     <li className="font-semibold text-md text-slate-600 hover:text-blue-500 active:text-blue-700">
   //     <NavLink to="/about-us" style={({isActive, isPending})=>{
   //         return {
-  //           color: isActive ? "red" : "",
+  //           color: isActive ? "#0067ED" : "",
   //           // color: isPending ? "" : "",
   //         }
   //       }}>About</NavLink>
@@ -136,9 +136,11 @@ const Header = () => {
 
             <div className="hidden md:block">
               <div className="mt-4 sm:mt-0">
+                <Link to="/contact-us">
                 <button className="uppercase text-center w-32 h-10 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#2bb8ff] items-center hover:from-[#1a43d6] hover:to-[#9b22d3] border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
                   Get a quote
                 </button>
+                </Link>
               </div>
             </div>
           </div>

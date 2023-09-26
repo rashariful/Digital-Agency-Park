@@ -34,26 +34,26 @@ const Contact = () => {
       <div className="contact-bg">
         <div className="container mx-auto flex">
           <div className="left-con">
-            <h2 className="text-4xl font-extrabold mb-10 leading-normal">
+            <h2 className="text-4xl font-bold mb-10 leading-normal text-slate-700">
               Need additional information?
             </h2>
-            <p className="mb-10 w-1/2">
+            <p className="mb-10 w-1/2 text-gray-600">
               A multifaceted professional skilled in multiple fields of
               research, development as well as a learning specialist. Over 15
               years of experience.
             </p>
 
             <span className="flex gap-3 mb-3">
-              <FaPhoneAlt size={19} />
-              <p className="font-semibold"> +8801850-273117</p>
+              <FaPhoneAlt size={19} color="#0067ED" />
+              <p className=" text-gray-600"> +8801850-273117</p>
             </span>
             <span className="flex gap-3 mb-3">
-              <FaEnvelope size={19} />
-              <p className="font-semibold">digitalagencypark@gmail.com</p>
+              <FaEnvelope size={19} color="#0067ED" />
+              <p className=" text-gray-600">digitalagencypark@gmail.com</p>
             </span>
             <span className="flex gap-3 mb-3">
-              <FaMapMarkedAlt size={19} />
-              <p className="font-semibold">
+              <FaMapMarkedAlt size={19} color="#0067ED" />
+              <p className=" text-gray-600">
                 Road # 03, House # 03, Nikunja 02, <br />{" "}
                 <span>Dhaka Bangladesh 1229</span>{" "}
               </p>

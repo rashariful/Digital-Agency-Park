@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Ecommerce = () => {
-    const [projects, setProjects] = useState([]);
-    // console.log(projects)
+  const [projects, setProjects] = useState([]);
+  // console.log(projects)
 
-    useEffect(() => {
-      fetch(`https://portfolio-server-hazel.vercel.app/api/v1/project`)
-        .then((res) => res.json())
-        .then((data) => setProjects(data.data));
-    }, []);
-    return (
-        <div>
+  useEffect(() => {
+    fetch(`https://portfolio-server-hazel.vercel.app/api/v1/project`)
+      .then((res) => res.json())
+      .then((data) => setProjects(data.data));
+  }, []);
+  return (
+    <div>
       <div className="py-6 sm:py-8 lg:py-12">
         <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
           <div className="flex justify-between items-center gap-8 mb-4 sm:mb-8 md:mb-12">
@@ -25,25 +25,25 @@ const Ecommerce = () => {
               </p>
             </div> */}
           </div>
-          
+
           {/* project start here */}
           <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
             <>
               {projects?.map((project) => (
                 <>
-                  <div className="card  bg-base-100 shadow border hover:border-cyan-500 transition-all duration-300">
+                  <div className="card  bg-white shadow border hover:border-cyan-500 transition-all duration-300">
                     <Link to={`/details/${project._id}`}>
                       <figure className="px-10 pt-10 transition duration-300 hover:scale-110 ">
                         <img
                           src={project?.thumbnail}
                           alt="Shoes"
-                          className="rounded-xl"  
+                          className="rounded-xl"
                         />
                       </figure>
                     </Link>
                     <div className="card-body items-center text-center">
                       <h2 className="card-title capitalize">{project.title}</h2>
-                      <p className="" >{project.shortDscrp}</p>
+                      <p className="">{project.shortDscrp}</p>
                       <div className="card-actions">
                         <div className="flex flex-col md:flex-row gap-5 text-white pt-8 text-sm md:text-lg relative ml-4 md:ml-5 mb-3">
                           <a href={project.liveLink}>
@@ -67,7 +67,7 @@ const Ecommerce = () => {
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default Ecommerce;
