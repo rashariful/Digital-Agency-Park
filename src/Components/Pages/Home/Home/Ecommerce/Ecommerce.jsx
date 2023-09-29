@@ -32,7 +32,7 @@ const Ecommerce = () => {
               {projects?.map((project) => (
                 <>
                   <div className="card  bg-white shadow border hover:border-cyan-500 transition-all duration-300">
-                    <Link to={`/details/${project._id}`}>
+                    <Link to={`/details/${project._id}`}> 
                       <figure className="px-10 pt-10 transition duration-300 hover:scale-110 ">
                         <img
                           src={project?.thumbnail}
