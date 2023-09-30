@@ -49,7 +49,7 @@ export default function TestingSlider() {
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
               {testimonialData.map((testimonial, index) => (
                
-               <div className="flex bg-white flex-col border px-5 py-10 rounded-3xl gap-4 md:gap-6 sm:px-4 lg:px-8 transition-transform transform hover:scale-105 duration-300 ease-in-out">
+               <div className="flex bg-white flex-col border px-5 py-10 rounded-3xl hover:border-primary  scroll-smooth gap-4 md:gap-6 sm:px-4 lg:px-8  hover:scale-105 duration-300 ease-in-out">
                     
                <div className="flex flex-col sm:flex-row items-center gap-2 md:gap-3">
                    <div className="w-12 md:w-14 h-12 md:h-14 rounded-full overflow-hidden shadow-lg">

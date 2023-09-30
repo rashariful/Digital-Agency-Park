@@ -15,6 +15,7 @@ const WorkingWay = () => {
             We Will Help You Every Step Of The Way
           </p>
         </div>
+
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-primary hover:underline flex-shrink-0">
             {/* <svg
@@ -164,33 +165,15 @@ const WorkingWay = () => {
           </div>
         </div>
 
-        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
-          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-primary hover:underline flex-shrink-0">
-            {/* <svg
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="sm:w-16 sm:h-16 w-10 h-10"
-              viewBox="0 0 24 24"
-            >
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg> */}
-            <img
-              className="rounded-full border border-slate-300 h-32"
-              src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-data-document-protection_516790-1414.jpg?w=826"
-              alt=""
-            />
-          </div>
+     
 
+        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Design
+            Design
             </h2>
             <p className="leading-relaxed text-base">
-              Designing should be a very painless process if good planning was
+            Designing should be a very painless process if good planning was
               conducted. A design is essentially taking the skeleton (the
               wire-frame) that was created in the planning step, and putting
               meat on the bones. If brand guides (a set of basic design rules to
@@ -198,35 +181,6 @@ const WorkingWay = () => {
               spending too much time designing. It can be as basic as choosing a
               standard color palette to use, as well as font family, style and
               sizes.
-            </p>
-            <a className="mt-3 text-primary hover:underline inline-flex items-center">
-              Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        <div className="flex items-center lg:w-3/5 mx-auto  sm:flex-row flex-col">
-          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Develop
-            </h2>
-            <p className="leading-relaxed text-base">
-              Once your vision has been planned out and designed, you’re finally
-              ready to develop your website. This is the technical step where
-              all the nuts and bolts are put together. Depending on how big the
-              project is, the development phase should be relatively quick as
-              long as thorough planning and good designing have been done.
             </p>
             <a className="mt-3 text-primary hover:underline inline-flex items-center">
               Learn More
@@ -259,10 +213,47 @@ const WorkingWay = () => {
             </svg> */}
             <img
               className="rounded-full border border-slate-300 h-32"
+              src="https://img.freepik.com/free-vector/postgraduate-career-opportunities-young-specialist-college-choice-advisor-college-rankings-career-assessment-test-concept-pinkish-coral-bluevector-isolated-illustration_335657-1257.jpg?w=1380&t=st=1694852226~exp=1694852826~hmac=fee73e7846a11827f372b4f86487af5c5b09eabc916378c57ce22d9abd2f73a9"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div className="flex items-center lg:w-3/5 mx-auto  sm:flex-row flex-col">
+          <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-primary hover:underline flex-shrink-0">
+            <img
+              className="rounded-full border border-slate-300 h-32"
               src="https://img.freepik.com/premium-vector/immigration-template-hand-drawn-cartoon-flat-illustration-document-with-visa-passport_2175-7960.jpg?w=1380"
               alt=""
             />
           </div>
+          <div className="flex-grow sm:text-left text-center ml-10 mt-6 sm:mt-0">
+            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              Develop
+            </h2>
+            <p className="leading-relaxed text-base">
+              Once your vision has been planned out and designed, you’re finally
+              ready to develop your website. This is the technical step where
+              all the nuts and bolts are put together. Depending on how big the
+              project is, the development phase should be relatively quick as
+              long as thorough planning and good designing have been done.
+            </p>
+            <a className="mt-3 text-primary hover:underline inline-flex items-center">
+              Learn More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                className="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+          
         </div>
 
         {/* <img className="biman h-96 w-96 absolute" src={biman} alt="" /> */}

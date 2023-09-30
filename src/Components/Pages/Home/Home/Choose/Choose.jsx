@@ -1,4 +1,5 @@
 import ProgressBar from "./ProgressBar";
+import { HiArrowNarrowRight } from "react-icons/hi";
 // eslint-disable-next-line no-unused-vars
 import style from "./style.css";
 
@@ -20,11 +21,11 @@ const Choose = () => {
           <div>
             <h3 className="text-primary font-semibold">WHY CHOOSE US</h3>
             <p className="text-slate-700 text-4xl leading-normal mb-8">
-              Experienced Lawyers Provide Immigration Services.
+              Build or extend your Software_ development team
             </p>
             <p className="text-slate-500 leading-normal mb-8">
-              The Most Eminent Visas and Immigration Consultant service
-              provider. <br /> Branches in India and overseas.
+              We support companies that need agile teams of the best engineers.
+              Build or extend your software development team with ease.
             </p>
             <div>
               <div className="relative pt-1">
@@ -33,29 +34,36 @@ const Choose = () => {
                     initialValue={20}
                     increment={10}
                     endValue={80}
-                    label="Business Immigration Visa"
+                    label="E-commerce"
                   />
                   <ProgressBar
                     initialValue={40}
                     increment={10}
                     endValue={90}
-                    label="Visitor Visa"
+                    label="Business"
                   />
                   <ProgressBar
                     initialValue={10}
                     increment={10}
                     endValue={50}
-                    label="Student Visa"
+                    label="Resturent"
                   />
                 </div>
               </div>
             </div>
             <p className="text-slate-500 leading-normal mt-8 w-96">
-              Foundation was established with a small idea that was incepted in
-              the minds of its promoters in the year 1994! We skillfully guide
-              applicants for their immigration process to any country they
-              aspire to settle. <span className="text-primary hover:underline">Read more</span>
+              Scale your software operations through a custom engineering team.
+              Meet the demand of your company’s operations with a
+              high-performing nearshore team skilled in the technologies you
+              need.
+
+              
             </p>
+            <div className="flex gap-3 items-center mt-2">
+
+            <p className="text-primary hover:underline duration-300">Read more </p>
+            <p className="text-primary"> <HiArrowNarrowRight size={20}/> </p>
+            </div>
           </div>
           <div>
             <img

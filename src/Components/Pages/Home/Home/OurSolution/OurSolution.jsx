@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Portfolio from "../../Portfolio/Portfolio";
 import Ecommerce from "../Ecommerce/Ecommerce";
 import Resturent from "../Resturent/Resturent";
+import Business from "../Business/Business";
 
 const OurSolution = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -14,7 +15,7 @@ const OurSolution = () => {
     {
       id: 2,
       title: "Business",
-      content: "Business description",
+      content: <Business/>,
     },
     {
       id: 3,
