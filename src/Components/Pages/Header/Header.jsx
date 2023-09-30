@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { MdClose, MdOutlineMenu } from "react-icons/md";
 import { Link,NavLink } from "react-router-dom";
-import logo from "../../../Assets/logo.svg";
+import logo from "../../../Assets/hlogo.svg";
 
 const Header = () => {
   const [isNavbarVisible, setNavbarVisible] = useState(true);

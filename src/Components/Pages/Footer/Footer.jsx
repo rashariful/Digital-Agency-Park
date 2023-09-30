@@ -6,7 +6,7 @@ import {
   FaInstagramSquare,
   FaYoutube,
 } from "react-icons/fa";
-import logo from "../../../Assets/log-l.svg"
+import logo from "../../../Assets/flogo.png"
 import { MdLocationOn, MdEmail, MdCall } from "react-icons/md";
 
 const Footer = () => {
@@ -19,10 +19,10 @@ const Footer = () => {
             <div className="mb-4 lg:-mt-2">
               <Link
                 to="#"
-                className="inline-flex items-center gap-2 text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6C38F8] via-[#6C38F8] to-[#BB2BFF] md:text-2xl"
-                aria-label="logo"
+                // className="inline-flex items-center gap-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6C38F8] via-[#6C38F8] to-[#BB2BFF] md:text-2xl"
+               
               >
-                <img src={logo} className="w-64" alt="" />
+                <img src={logo} className="w-full" alt="" />
               </Link>
             </div>
             {/* <!-- logo - end --> */}

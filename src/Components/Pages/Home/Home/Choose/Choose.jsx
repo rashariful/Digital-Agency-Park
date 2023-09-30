@@ -4,8 +4,8 @@ import style from "./style.css";
 
 const Choose = () => {
   return (
-    <section className="">
-      <div className="container mx-auto px-8 py-32">
+    <section className=" bg-white">
+      <div className="container mx-auto px-8 py-32 ">
         {/* <div className="mb-10 md:mb-16">
             <h2 className="mb-4 capitalize text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
                what we do
