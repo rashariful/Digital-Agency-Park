@@ -8,7 +8,7 @@ import Team from "../Team/Team";
 const About = () => {
   return (
     <div className="">
-      <div className="relative mb-20">
+      <div className="relative">
         <img
           src="https://cdn.pixabay.com/photo/2016/11/14/02/55/path-1822448_1280.jpg"
           alt="Top "
@@ -28,138 +28,245 @@ const About = () => {
       </div>
       <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-          <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
-            <div>
-              <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
+          <div className=" mt-80 w-1/2 mx-auto">
+            <div className="absolute top-96 left-0 right-0">
+              <div className=" w-1/2 mx-auto overflow-hidden rounded-lg bg-rose-100 shadow-lg md:h-auto">
                 <img
-                  src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
+                  src="https://businessleader.co.uk/wp-content/uploads/2021/08/iStock-1150198297.jpg"
                   loading="lazy"
-                  alt="Photo by Martin Sanchez"
-                  className="h-full w-full object-cover object-center"
+                  alt=" by Martin Sanchez"
+                  className="h-96 w-full mx-auto object-cover object-center"
                 />
               </div>
             </div>
 
             <div className="md:pt-8">
               <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md: md:text-left">
-                Digital Agency Park: Revolutionizing 
+                Digital Agency Park: Revolutionizing
               </h1>
-              <p className="text-center text-lg font-bold md:text-left">
-                Introduction:
-              </p>
+              <div>
+                <p className="text-center text-lg font-bold md:text-left">
+                  Introduction:
+                </p>
 
-              <p className=" text-gray-500 sm:text-lg md:mb-8">
-                Digital Agency Park, an innovative 
-                Bangladesh, is transforming the way people access convenient and
-                reliable transportation services. With a mission to provide
-                hassle-free and affordable car rentals, Digital Agency Park aims to
-                empower individuals and businesses to navigate the bustling
-                streets of Dhaka with ease. This article explores Digital Agency Park'
-                vision, mission, and their commitment to revolutionizing the car
-                rental industry in Bangladesh.
-              </p>
+                <p className=" text-gray-500 sm:text-lg md:mb-8">
+                  At Digital Agency Park, we are more than just a software
+                  company; we are your trusted partner in digital innovation.
+                  Our journey began with a vision to reshape the digital
+                  landscape, and today, we stand at the forefront of technology,
+                  delivering cutting-edge solutions that drive businesses
+                  forward.
+                </p>
+              </div>
+              <div>
+                <p className="text-center text-lg font-bold md:text-left">
+                  Our Story:
+                </p>
+
+                <p className=" text-gray-500 sm:text-lg md:mb-8">
+                  Established in 2020, Digital Agency Park was born out of a
+                  passion for innovation and a desire to make a lasting impact
+                  in the digital world. Over the years, we have evolved into a
+                  dynamic team of creative minds, tech enthusiasts, and problem
+                  solvers. Our commitment to excellence and a thirst for pushing
+                  the boundaries of what's possible has become the driving force
+                  behind every project we undertake.
+                </p>
+              </div>
               <p className="text-center text-lg font-bold md:text-left">
                 Mission Statement:
               </p>
 
               <p className=" text-gray-500 sm:text-lg md:mb-8">
-                Digital Agency Park' mission is to redefine car rentals in Dhaka, offering
-                customers a seamless and convenient experience. By leveraging
-                technology and providing exceptional customer service, Digital Agency Park
-                aims to be the go-to platform for reliable, affordable, and
-                efficient transportation solutions in the city. The company
-                strives to exceed customer expectations by delivering
-                exceptional service quality, while also contributing to the
-                local economy and fostering sustainable growth.
+                Our mission is simple yet profound - to empower businesses with
+                technology that transforms their visions into reality. We
+                believe in the power of innovation to drive growth, enhance
+                efficiency, and create memorable user experiences. Through our
+                expertise, dedication, and collaborative approach, we strive to
+                be the catalyst that propels your business to new heights.
               </p>
-              <p className="text-center text-lg font-bold md:text-left">Vision:</p>
+              {/* <div>
+             <p className="text-center text-lg font-bold md:text-left">
+                Vision:
+              </p>
 
               <p className=" text-gray-500 sm:text-lg md:mb-8">
-                Digital Agency Park envisions a future where transportation in Dhaka is no
-                longer a challenge, but a hassle-free experience. The company
-                aims to create a culture of accessibility and convenience by
-                offering a wide range of vehicles for various needs and budgets.
-                Through continuous innovation and technological advancements,
-                Digital Agency Park seeks to become the preferred choice for locals and
-                tourists alike, ensuring seamless mobility solutions throughout
-                the city.
+                Digital Agency Park envisions a future where transportation in
+                Dhaka is no longer a challenge, but a hassle-free experience.
+                The company aims to create a culture of accessibility and
+                convenience by offering a wide range of vehicles for various
+                needs and budgets. Through continuous innovation and
+                technological advancements, Digital Agency Park seeks to become
+                the preferred choice for locals and tourists alike, ensuring
+                seamless mobility solutions throughout the city.
               </p>
-              <p className="text-center text-lg font-bold md:text-left">Our Aim:</p>
-              <p className="text-gray-500 sm:text-lg">
-                Digital Agency Park is dedicated to fulfilling several key aims:
+             </div> */}
+              <p className="text-center mb-5 text-lg font-bold md:text-left">
+                What Sets Us Apart:
               </p>
+
+              <div className="flex flex-col gap-4">
               <p>
-                <span className="text-md font-semibold text-slate-700">1.</span>
-                <span className="ml-2 font-bold text-black">Convennience:</span>
-                Digital Agency Park strives to make car rentals as effortless as possible,
-                ensuring a streamlined booking process and providing customers
-                with easy access to a diverse fleet of vehicles. Through an
-                intuitive online platform, users can conveniently reserve a car
-                within minutes, saving time and effort.
+                <span className="text-md font-semibold text-gray-500">1.</span>
+                <span className="ml-2 font-bold text-black">Expertise: </span >
+                 
+                <span className="text-gray-500 ml-2">
+                Our team comprises seasoned professionals who excel in their
+                respective domains. From software development to digital
+                marketing, we bring a wealth of knowledge and experience to the
+                table.
+                </span>
               </p>
+
               <p>
-                <span className="text-md font-semibold text-slate-700">2.</span>
+                <span className="text-md font-semibold text-gray-500">2.</span>
+                <span className="ml-2 font-bold text-black">Innovation:</span>
+                <span className="text-gray-500 ml-2">
+                  We thrive on innovation. We don't just follow industry trends;
+                  we set them. Our solutions are built with an eye on the
+                  future, ensuring that your business remains competitive in the
+                  ever-evolving digital landscape.
+                </span>
+              </p>
+
+              <p>
+                <span className="text-md font-semibold text-gray-500">3.</span>
                 <span className="ml-2 font-bold text-black">
-                  Affordability:
+                  Client-Centric Approach:
                 </span>
                 <span className="text-gray-500 ml-2">
-                Digital Agency Park believes that reliable transportation should be
-                accessible to everyone. By offering competitive pricing and
-                flexible rental options, the company aims to provide
-                cost-effective solutions that cater to various budgets without
-                compromising on quality or service.</span>
-              </p>
-              <p>
-                <span className="text-md font-semibold text-slate-700">3.</span>
-                <span className="ml-2 font-bold text-black">
-                  Exceptional Service:
+                  Your success is our success. We listen, understand, and tailor
+                  our solutions to meet your unique needs. Your goals become our
+                  goals, and we work tirelessly to achieve them.
                 </span>
-                <span className="text-gray-500 ml-2">
-                Digital Agency Park places great emphasis on customer satisfaction. Their
-                dedicated team is committed to delivering top-notch service,
-                ensuring that customers receive a warm welcome, personalized
-                assistance, and timely support throughout their rental
-                experience. By going the extra mile, Digital Agency Park aims to build
-                long-term relationships with their customers.</span>
               </p>
+
               <p>
-                <span className="text-md font-semibold text-slate-700">4.</span>
-                <span className="ml-2 font-bold text-black">
-                  Quality and Safety:
-                </span>
+                <span className="text-md font-semibold text-gray-500">4.</span>
+                <span className="ml-2 font-bold text-black">Quality:</span>
                 <span className="text-gray-500 ml-2">
-                Digital Agency Park prioritizes the safety and comfort of their customers.
-                Every vehicle in their fleet undergoes regular maintenance and
-                inspection to ensure optimal performance and reliability.
-                Additionally, the company follows stringent safety protocols,
-                providing peace of mind to customers during their journeys.</span>
+                  We have an unwavering commitment to delivering top-notch
+                  quality. Our rigorous testing and quality assurance processes
+                  ensure that every project we deliver is robust, reliable, and
+                  ready to perform.
+                </span>
               </p>
+
               <p>
-                <span className="text-md font-semibold text-slate-700">5.</span>
-                <span className="ml-2 font-bold text-black">
-                  Community Impact:
-                </span>
+                <span className="text-md font-semibold text-gray-500">5.</span>
+                <span className="ml-2 font-bold text-black">Transparency:</span>
                 <span className="text-gray-500 ml-2">
-                Digital Agency Park recognizes its role in contributing to the local
-                community and economy. By creating job opportunities and
-                collaborating with local partners, the company aims to foster
-                sustainable growth and make a positive social impact in Dhaka
-                and beyond. </span>
+                  We believe in open and transparent communication. Throughout
+                  the project lifecycle, you'll have full visibility into our
+                  progress, ensuring that there are no surprises along the way.
+                </span>
               </p>
-              <p className="text-gray-500">
-                In conclusion, Digital Agency Park is revolutionizing the car rental
-                industry in Dhaka, Bangladesh, by prioritizing convenience,
-                affordability, exceptional service, quality, and safety. With
-                their innovative approach, commitment to customer satisfaction,
-                and dedication to the community, Digital Agency Park is well on its way to
-                becoming the premier car rental platform in Dhaka, empowering
-                individuals and businesses to navigate the city effortlessly.
+              </div>
+
+            
+
+              <p className="text-center my-8 text-lg font-bold md:text-left">
+                Our Services:
               </p>
+
+             <div className="flex flex-col gap-4">
+             <div>
+                <p>
+                  <span className="text-md font-semibold text-gray-500">
+                    1.
+                  </span>
+                  <span className="ml-2 font-bold text-black">
+                    Software Development:
+                  </span>
+                  <span className="text-gray-500 ml-2">
+                    From custom web applications to mobile apps and everything
+                    in between, we build software solutions that drive your
+                    business forward.
+                  </span>
+                </p>
+              </div>
+              
+              <div>
+                <p>
+                  <span className="text-md font-semibold text-gray-500">
+                    2.
+                  </span>
+                  <span className="ml-2 font-bold text-black">
+                    Digital Marketing:
+                  </span>
+                  <span className="text-gray-500 ml-2">
+                    Our digital marketing experts harness the power of the
+                    online world to boost your brand's visibility and
+                    engagement.
+                  </span>
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  <span className="text-md font-semibold text-gray-500">
+                    3.
+                  </span>
+                  <span className="ml-2 font-bold text-black">
+                    Web Design and Development:
+                  </span>
+                  <span className="text-gray-500 ml-2">
+                    We create stunning, user-friendly websites that leave a
+                    lasting impression and deliver exceptional user experiences.
+                  </span>
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  <span className="text-md font-semibold text-gray-500">
+                    4.
+                  </span>
+                  <span className="ml-2 font-bold text-black">
+                    E-commerce Solutions:
+                  </span>
+                  <span className="text-gray-500 ml-2">
+                    Take your online business to the next level with our
+                    e-commerce expertise, from development to optimization.
+                  </span>
+                </p>
+              </div>
+              
+              <div>
+                <p>
+                  <span className="text-md font-semibold text-gray-500">
+                    5.
+                  </span>
+                  <span className="ml-2 font-bold text-black">Consulting</span>
+                  <span className="text-gray-500 ml-2">
+                    Our consulting services provide you with strategic insights
+                    and guidance to make informed digital decisions.
+                  </span>
+                </p>
+              </div>
+             </div>
+
+              <br />
+              <div>
+                <p className="text-center my-8 text-lg font-bold md:text-left">
+                  Join Us on the Digital Journey:
+                </p>
+
+                <p className=" text-gray-500 sm:text-lg md:mb-8">
+                  We invite you to join us on a digital journey where
+                  possibilities are limitless. Whether you're a startup with a
+                  groundbreaking idea or an established enterprise seeking
+                  digital transformation, Digital Agency Park is here to turn
+                  your aspirations into achievements. Let's innovate,
+                  collaborate, and create success together. Welcome to Digital
+                  Agency Park - Where Innovation Meets Excellence.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <Team/>
+      <Team />
     </div>
   );
 };

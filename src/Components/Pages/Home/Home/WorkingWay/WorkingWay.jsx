@@ -4,11 +4,11 @@ import style from "./style.css";
 
 const WorkingWay = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="bg-white text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="mb-10 md:mb-16">
           <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
-            Four Steps To Success
+            Five Steps To Success
           </h2>
 
           <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
@@ -37,13 +37,16 @@ const WorkingWay = () => {
 
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Case study
+              Vision
             </h2>
             <p className="leading-relaxed text-base">
-              A case study is an in-depth, detailed examination of a particular
-              case within a real-world context. For example, case studies in
-              medicine may focus on an individual patient or ailment; case
-              studies in.
+              The vision of the website is always provided by the owner – the
+              one whose website is being built. If your vision is simply “I need
+              a web presence”, then a basic single-page splash site might
+              suffice. However, with all of the marketing and branding potential
+              there is available you should think a little bigger. When thinking
+              about the vision of the website, it’s helpful to ask the
+              following:
             </p>
             <a className="mt-3 text-primary hover:underline inline-flex items-center">
               Learn More
@@ -65,14 +68,14 @@ const WorkingWay = () => {
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Choose Your Universities
+              Brainstorm
             </h2>
             <p className="leading-relaxed text-base">
-              There are some which give you a general ranking, while others may
-              have separate tables for each subject. For me, the most important
-              data was the student:staff ratio. The lower this ratio is, the
-              better. In smaller classes you can ask questions and understand
-              the topics more easily.
+              When working with a web designer, collaboration is key. The
+              brainstorming step consists of one or more meetings where you
+              educate them on your company and industry, and let them know your
+              overall vision. They in turn offer suggestions and solutions for
+              various ways to accomplish your vision.
             </p>
             <a className="mt-3 text-primary hover:underline inline-flex items-center">
               Learn More
@@ -134,7 +137,7 @@ const WorkingWay = () => {
 
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Get offer letter
+              Plan
             </h2>
             <p className="leading-relaxed text-base">
               An offer letter provides a brief overview of the position and
@@ -161,16 +164,69 @@ const WorkingWay = () => {
           </div>
         </div>
 
+        <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+          <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-primary hover:underline flex-shrink-0">
+            {/* <svg
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              className="sm:w-16 sm:h-16 w-10 h-10"
+              viewBox="0 0 24 24"
+            >
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg> */}
+            <img
+              className="rounded-full border border-slate-300 h-32"
+              src="https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-data-document-protection_516790-1414.jpg?w=826"
+              alt=""
+            />
+          </div>
+
+          <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+            <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
+              Design
+            </h2>
+            <p className="leading-relaxed text-base">
+              Designing should be a very painless process if good planning was
+              conducted. A design is essentially taking the skeleton (the
+              wire-frame) that was created in the planning step, and putting
+              meat on the bones. If brand guides (a set of basic design rules to
+              follow for a particular brand) don’t exist, then make one before
+              spending too much time designing. It can be as basic as choosing a
+              standard color palette to use, as well as font family, style and
+              sizes.
+            </p>
+            <a className="mt-3 text-primary hover:underline inline-flex items-center">
+              Learn More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                className="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
         <div className="flex items-center lg:w-3/5 mx-auto  sm:flex-row flex-col">
           <div className="flex-grow sm:text-left text-center mt-6 sm:mt-0">
             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">
-              Fly abroad
+              Develop
             </h2>
             <p className="leading-relaxed text-base">
-              At Fly Abroad Education Consultant, our mission is to offer the
-              widest range of services and commitments to our student customers
-              seeking higher education to Germany, Canada, Australia, UK, Dubai,
-              Bahrain, Indian, Poland and Switzerland.
+              Once your vision has been planned out and designed, you’re finally
+              ready to develop your website. This is the technical step where
+              all the nuts and bolts are put together. Depending on how big the
+              project is, the development phase should be relatively quick as
+              long as thorough planning and good designing have been done.
             </p>
             <a className="mt-3 text-primary hover:underline inline-flex items-center">
               Learn More

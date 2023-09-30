@@ -14,6 +14,7 @@ import Faq from "./Faq/Faq";
 import Choose from "./Choose/Choose";
 import WorkingWay from "./WorkingWay/WorkingWay";
 import Number from "./Number/Number";
+import WhyChoose from "./WhyChoose/WhyChoose";
 // import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
         <WorkingWay />
         <Faq />
         <Choose />
+        <WhyChoose />
         <Number />
         <TestingSlider />
       {/* <MessengerCustomerChat pageId="106055157950858" appId="199380903116422" /> */}
