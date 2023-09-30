@@ -10,90 +10,78 @@ import "swiper/css/pagination";
 import "./styles.css";
 
 // import required modules
-import { FreeMode, Autoplay, Pagination } from "swiper/modules";
+import { FreeMode, Autoplay, } from "swiper/modules";
 
 export default function TestingSlider() {
   const testimonialData = [
     {
       id: 1,
-      title: "President of Operations,",
-      subTitle: "Digital Marketing Company in Florida",
-      description: "“I wanted to take a moment to thank you for the services your team has provided. Your team has been a pleasure to work with, professional and timely. The only delay in work that we have experienced has been due to our own lack of organization managing our projects, not yours. Job well done and I hope we can continue to grow together.”",
-      img: "https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112",
+      title: "Ernest Smith",
+      subTitle: "Developer at Unixity",
+      description: "Outstanding dedication to excellence, exceptional support received. Impressive service!",
+      img: "https://preview.codeless.co/converta/default/wp-content/uploads/2023/02/avatar-3-150x150.png",
     },
-    
+
     {
       id: 2,
-      title: "CMO",
-      subTitle: "Leading Medical Care Company in Seattle, WA",
-      description: "“We've been trying to put together a functional website since I began my practice in April of 2012. I am happy to say we finally hired the Flatworld team and they've worked closely with us throughout the process, staying on task, on target, and on budget. I also appreciate their quick and courteous responses. I highly recommend their service!”",
-      img: "https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg",
+      title: "Stella Smith",
+      subTitle: "Engineer at Unify",
+      description:"Expertise made all the difference, absolute pleasure to work with. Exceeded our expectations.",
+      img: "https://preview.codeless.co/converta/default/wp-content/uploads/2023/02/avatar-2-150x150.png",
     },
+
     {
       id: 3,
-      title: "John McCulling",
-      subTitle: "CEO / Datadrift",
-      description: "“I wanted to take a moment to thank you for the services your team has provided. Your team has been a pleasure to work with, professional and timely. The only delay in work that we have experienced has been due to our own lack of organization managing our projects, not yours. Job well done and I hope we can continue to grow together.”",
-      img: "https://img.freepik.com/premium-photo/find-something-you-like-it-shot-corporate-businesspeople-office_590464-34016.jpg?w=360",
+      title: "Thomas Smith",
+      subTitle: "Designer at Converta",
+      description:"I highly recommend this agency. Testing for our project was done everything top-notch",
+      img: "https://preview.codeless.co/converta/default/wp-content/uploads/2023/02/avatar-1-150x150.png",
     },
   ];
   return (
-    <>
-      <Swiper
-        spaceBetween={30}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Autoplay, Pagination]}
-        className="mySwiper"
-      >
-        <div>
-          {testimonialData.map((testimonial, index) => (
+    <section className="bg-[#F8FAFC] py-32">
+      <div className="container mx-auto text-center">
+        <h2 className="text-3xl mb-20 font-semibold text-gray-700">
+        What our customers are saying
+        </h2>
+           
+           <div className="px-32">
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {testimonialData.map((testimonial, index) => (
+               
+               <div className="flex bg-white flex-col border px-5 py-10 rounded-3xl gap-4 md:gap-6 sm:px-4 lg:px-8 transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    
+               <div className="flex flex-col sm:flex-row items-center gap-2 md:gap-3">
+                   <div className="w-12 md:w-14 h-12 md:h-14 rounded-full overflow-hidden shadow-lg">
+                     <img
+                       src={testimonial.img}
+                       loading="lazy"
+                       alt=" by Radu Florin"
+                       className="w-full h-full object-cover object-center"
+                     />
+                   </div>
 
-           <SwiperSlide key={index} className="pb-12">
-              <div className="flex flex-col items-center gap-4 md:gap-6 sm:px-4 lg:px-8">
-              <div className="text-gray-600 text-center w-1/2">
-                {testimonial.description}
-              </div>
+                   <div>
+                     <div className="text-blue-500 text-sm md:text-base font-bold text-center sm:text-left">
+                       {testimonial.title}
+                     </div>
+                     <p className="text-gray-500 text-sm md:text-sm text-center sm:text-left">
+                       {testimonial.subTitle}
+                     </p>
+                   </div>
+                 </div>
+                 <div className="text-gray-500 text-left">
+                   {testimonial.description}
+                 </div>
 
-              <div className="flex flex-col sm:flex-row items-center gap-2 md:gap-3">
-                <div className="w-12 md:w-14 h-12 md:h-14 bg-gray-100 rounded-full overflow-hidden shadow-lg">
-                  <img
-                    src={testimonial.img}
-                    loading="lazy"
-                    alt=" by Radu Florin"
-                    className="w-full h-full object-cover object-center"
-                  />
-                </div>
-
-                <div>
-                  <div className="text-blue-500 text-sm md:text-base font-bold text-center sm:text-left">
-                    {testimonial.title}
-                  </div>
-                  <p className="text-gray-500 text-sm md:text-sm text-center sm:text-left">
-                  {testimonial.subTitle}
-                  </p>
-                </div>
-              </div>
+                
+               </div>
+              
+              ))}
             </div>
-           </SwiperSlide>
-
-            // <div>
-            //   <SwiperSlide>
-            //     <p>{testimonial.description}</p>
-            //     <div>
-            //       <p>{testimonial.title}</p>
-            //       <p>{testimonial.subTitle}</p>
-            //     </div>
-            //   </SwiperSlide>
-            // </div>
-          ))}
-        </div>
-      </Swiper>
-    </>
+           </div>
+        
+      </div>
+    </section>
   );
 }
