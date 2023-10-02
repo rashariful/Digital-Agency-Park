@@ -22,8 +22,8 @@ import TestSlider from "./Slider/TestSlider";
 const Home = () => {
   return (
     <div className="">  
-        <Slider />
-        {/* <TestSlider/> */}
+        {/* <Slider /> */}
+        <TestSlider/>
         <Service />
         <OurSolution />
         <WorkingWay />
