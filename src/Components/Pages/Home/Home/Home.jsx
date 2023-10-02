@@ -16,21 +16,23 @@ import WorkingWay from "./WorkingWay/WorkingWay";
 import Number from "./Number/Number";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import GoToTopButton from "../../GoToTopButton/GoToTopButton";
+import TestSlider from "./Slider/TestSlider";
 // import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Home = () => {
   return (
     <div className="">  
         <Slider />
+        {/* <TestSlider/> */}
         <Service />
         <OurSolution />
         <WorkingWay />
         <Choose />
         <Faq />
-        <Team />
-        <OurClient />
+        {/* <Team />
+        <OurClient /> */}
         {/* <WhyChoose /> */}
-        <Number />
+        {/* <Number /> */}
         <TestingSlider />
         
       {/* <MessengerCustomerChat pageId="106055157950858" appId="199380903116422" /> */}

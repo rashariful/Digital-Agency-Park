@@ -4,13 +4,13 @@ import Team from "../Team/Team";
 
 // import "../../../../styles/AboutCompStyles.css";
 // import {car,carout,carshop,worker} from '../../../../assets/AboutCompImages';
-
+// absolute top-96 left-0 right-0
 const About = () => {
   return (
     <div className="">
       <div className="relative">
         <img
-          src="https://cdn.pixabay.com/photo/2016/11/14/02/55/path-1822448_1280.jpg"
+          src="https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg?w=1380&t=st=1696190933~exp=1696191533~hmac=dbbda40a5e40b2989c291496fb87670f962aee62c6d982e5d403a3d8fcfec5fd"
           alt="Top "
           className="w-full object-cover h-96"
         />
@@ -28,16 +28,15 @@ const About = () => {
       </div>
       <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-          <div className=" mt-80 w-1/2 mx-auto">
-            <div className="absolute top-96 left-0 right-0">
-              <div className=" w-1/2 mx-auto overflow-hidden rounded-lg bg-rose-100 shadow-lg md:h-auto">
+          <div className=" w-1/2 mx-auto">
+            <div className=""> <di className=" mx-auto overflow-hidden rounded-lg bg-rose-100 shadow-lg md:h-auto">
                 <img
-                  src="https://businessleader.co.uk/wp-content/uploads/2021/08/iStock-1150198297.jpg"
+                  src="https://img.freepik.com/free-photo/close-up-happy-executive_1098-768.jpg?w=1380&t=st=1696249460~exp=1696250060~hmac=6ff2e83a862319f1071fc75705aa7bf20351d57115aaed93b007cf3f44c7432e"
                   loading="lazy"
                   alt=" by Martin Sanchez"
-                  className="h-96 w-full mx-auto object-cover object-center"
+                  className="h-full w-full mx-auto object-cover object-center"
                 />
-              </div>
+              </di>
             </div>
 
             <div className="md:pt-8">
@@ -266,7 +265,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Team />
+      {/* <Team /> */}
     </div>
   );
 };

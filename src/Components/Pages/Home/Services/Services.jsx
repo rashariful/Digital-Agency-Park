@@ -3,7 +3,6 @@ import sv1 from "../../../../Assets/sv-2.png";
 import sv2 from "../../../../Assets/sv-3.png";
 import sv3 from "../../../../Assets/sv-4.png";
 import sv4 from "../../../../Assets/sv-5.png";
-import services from "../../../../Assets/service-banner.webp";
 import { Link } from "react-router-dom";
 
 const Services = () => {
@@ -12,7 +11,7 @@ const Services = () => {
       <div className="relative">
         <div className="bg-gradient-to-r from-cyan-500 to-blue-500 w-full">
           <img
-            src={services}
+            src="https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148881319.jpg?w=1380&t=st=1696191123~exp=1696191723~hmac=188f04d25bc95737cb1dd9663d2d9d41cc83f1b18eb0bce3875c1910e690d51b"
             alt="Top "
             className="w-full object-cover h-96 bg-gradient-to-r from-cyan-500 to-blue-500"
           />
