@@ -42,8 +42,8 @@ const Faq = () => {
   };
 
   return (
-    <section className="bg-white">
-      <div className="max-w-3xl mx-auto pb-20">
+    <section className="bg-white"> 
+      <div className="max-w-3xl mx-auto  pb-20">
         <h1 className="text-2xl font-semibold mb-8 text-slate-600">
           Frequently Asked Questions
         </h1>
