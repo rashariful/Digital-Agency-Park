@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import bg from "../../../../../Assets/headerPic/hr.png";
+import bg from "../../../../../Assets/headerPic/hr.png"; 
 import bg1 from "../../../../../Assets/headerPic/hr2.png";
 import bg2 from "../../../../../Assets/headerPic/hr3.png";
 import bg3 from "../../../../../Assets/headerPic/hr2.png";
@@ -14,7 +14,7 @@ const TestSlider = () => {
     AOS.init();
   }, []);
   return (
-    <div className="max-w-screen-xl  mx-auto">
+    <div className="max-w-screen-xl mx-auto">
       <Carousel
         autoPlay
         infiniteLoop
@@ -22,7 +22,7 @@ const TestSlider = () => {
         showStatus={false}
         showThumbs={false}
       >
-        <div className="bg-gray-50 md:flex  justify-around items-center md:w-[1280px]  mx-auto h-full md:h-[580px]">
+        <div className="bg-gray-50 md:flex justify-around items-center md:w-[1280px]  mx-auto h-full md:h-[580px]">
           <div
             data-aos="fade-up"
             data-aos-duration="3000"
