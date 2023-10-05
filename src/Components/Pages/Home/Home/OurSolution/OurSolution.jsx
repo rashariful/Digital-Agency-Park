@@ -3,6 +3,7 @@ import Portfolio from "../../Portfolio/Portfolio";
 import Ecommerce from "../Ecommerce/Ecommerce";
 import Resturent from "../Resturent/Resturent";
 import Business from "../Business/Business";
+import Hospitality from "../Hospitality/Hospitality";
 
 const OurSolution = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -25,7 +26,7 @@ const OurSolution = () => {
     {
       id: 4,
       title: "Hospitality",
-      content: "Hospitality description",
+      content: <Hospitality/>,
     },
   ];
   const handleTab = (index) => {
