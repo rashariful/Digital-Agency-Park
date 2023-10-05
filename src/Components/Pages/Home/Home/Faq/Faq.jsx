@@ -76,7 +76,7 @@ const Faq = () => {
               <div
                 className={` bg-gray-100 transition-all duration-700 ease-in-out text-gray-500 ${
                   openIndex === index
-                    ? "max-h-96 opacity-100 duration-300 rounded-b-md drop-shadow"
+                    ? "max-h-96 opacity-100  duration-300  rounded-b-md drop-shadow"
                     : "max-h-0 opacity-0"
                 } overflow-hidden`}
               >
