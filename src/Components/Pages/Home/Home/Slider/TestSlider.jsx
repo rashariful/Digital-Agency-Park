@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import bg from "../../../../../Assets/headerPic/hr.png"; 
+import bg from "../../../../../Assets/headerPic/hr.png";
 import bg1 from "../../../../../Assets/headerPic/hr2.png";
 import bg2 from "../../../../../Assets/headerPic/hr3.png";
 import bg3 from "../../../../../Assets/headerPic/hr2.png";
@@ -24,15 +24,16 @@ const TestSlider = () => {
       >
         <div className="bg-gray-50 md:flex justify-around items-center md:w-[1280px]  mx-auto h-full md:h-[580px]">
           <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos="fade-up" 
+            data-aos-duration="3000" 
             className="md:w-[520px] p-3"
           >
             <p className="text-xl leading-snug md:text-left text-center	font-semibold ">
               Tasty Healthy{" "}
             </p>
             <p className="text-5xl leading-snug	font-bold md:text-left text-center ">
-            Innovate & Transform your business with Digital Agency Park Limited
+              Innovate & Transform your business with Digital Agency Park
+              Limited 
             </p>
             <p className="md:text-start text-center leading-relaxed		">
               website or create a mock-up, then you're no doubt aware that dummy
@@ -48,7 +49,7 @@ const TestSlider = () => {
               </button>
             </div>
           </div>
-          
+
           <div
             data-aos="fade-down"
             data-aos-easing="linear"
@@ -173,7 +174,6 @@ const TestSlider = () => {
             <img className="md:h-96 h-72 rounded-md imgbg" src={bg3} alt="" />
           </div>
         </div>
-
       </Carousel>
     </div>
   );
