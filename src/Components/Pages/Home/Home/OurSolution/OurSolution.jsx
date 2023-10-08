@@ -16,7 +16,7 @@ const OurSolution = () => {
     {
       id: 2,
       title: "Business",
-      content: <Business/>,
+      content: <Business />,
     },
     {
       id: 3,
