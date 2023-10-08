@@ -26,7 +26,7 @@ const OurSolution = () => {
     {
       id: 4,
       title: "Hospitality",
-      content: "this is hospital realted web site",
+      content: "this is hospital realted web site our company profile",
     },
   ];
   const handleTab = (index) => {
