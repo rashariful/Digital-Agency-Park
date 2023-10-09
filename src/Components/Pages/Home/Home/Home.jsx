@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div className="">  
         {/* <Slider /> */}
-        <TestSlider/>
+        {/* <TestSlider/> */}
         <Service />
         <OurSolution />
         <WorkingWay />
