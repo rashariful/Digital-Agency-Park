@@ -9,28 +9,28 @@ const servicesData = [
     id: 1,
     title: "Crafting Exceptional UI/UX Solutions",
     description: " Simplify complexity and enhance user interactions with our innovative UI/UX solutions",
-    img: sv1,
+    img: sv3,
   },
   {
     id: 2,
     title: "Professional Web Development Services",
     description:
       "we deliver professional web development services that empower businesses to establish a strong online presence.",
-    img: sv2,
+    img: sv4,
   },
   {
     id: 3,
     title: "Unlocking Your Business's Online Potential",
     description:
       "We specialize in unlocking your business's online potential through strategic digital marketing solutions.",
-    img: sv3,
+    img: sv2,
   },
   {
     id: 4,
     title: "Effective SEO Strategies for Success",
     description:
       "Drive organic traffic to your website with our proven SEO strategies. Enhance your visibility in search engines, attract qualified leads, and grow your online presence",
-    img: sv4,
+    img: sv1,
   },
 ];
 
