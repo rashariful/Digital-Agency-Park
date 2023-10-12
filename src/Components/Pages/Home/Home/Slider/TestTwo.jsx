@@ -24,9 +24,9 @@ const TestTwo = () => {
       title:
         "Innovate & Transform your business with Digital Agency Park Limited",
       description:
-        "Get access to cutting-edge and advanced business solutions that can help you to stay ahead of the competition. At iBOS Limited, we specialize in providing innovative solutions that drive growth and efficiency for your business.",
+        "Get access to cutting-edge and advanced business solutions that can help you to stay ahead of the competition. At Digital Agency Park, we specialize in providing innovative solutions that drive growth and efficiency for your business.",
       imgUrl:
-        "https://media.istockphoto.com/id/1470351499/vector/software-developer-working-with-computers.jpg?s=612x612&w=0&k=20&c=N5R182foFpVQ-U6QP8RiSYDsWXOy7Lz6d5VT8aJKkj0=",
+        "https://www.web24zone.com/wp-content/uploads/2022/10/46207-programmer-1.gif",
     },
     {
       id: 2,
@@ -43,9 +43,9 @@ const TestTwo = () => {
         "Best Software Development Company To Architect The Dream For Next Generation",
 
       description:
-        "Get access to cutting-edge and advanced business solutions that can help you to stay ahead of the competition. At iBOS Limited, we specialize in providing innovative solutions that drive growth and efficiency for your business.",
+        "Get access to cutting-edge and advanced business solutions that can help you to stay ahead of the competition. At Digital Agency Park, we specialize in providing innovative solutions that drive growth and efficiency for your business.",
       imgUrl:
-        "https://images.unsplash.com/photo-1508919801845-fc2ae1bc2a28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1nfGVufDB8fDB8fHww&w=1000&q=80",
+        "https://blog.imarticus.org/wp-content/uploads/2021/12/bwgg.gif",
     },
     {
       id: 4,
@@ -53,7 +53,7 @@ const TestTwo = () => {
         "Best Software Development Company To Architect The Dream For Next Generation",
 
       description:
-        "Get access to cutting-edge and advanced business solutions that can help you to stay ahead of the competition. At iBOS Limited, we specialize in providing innovative solutions that drive growth and efficiency for your business.",
+        "Get access to cutting-edge and advanced business solutions that can help you to stay ahead of the competition. At Digital Agency Park, we specialize in providing innovative solutions that drive growth and efficiency for your business.",
       imgUrl:
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1670664007515/7nRHqrTst.gif",
     },

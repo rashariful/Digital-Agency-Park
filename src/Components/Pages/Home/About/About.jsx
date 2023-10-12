@@ -32,7 +32,7 @@ const About = () => {
           <div className=" w-1/2 mx-auto">
             <div className=""> <di className=" mx-auto overflow-hidden rounded-lg bg-rose-100 shadow-lg md:h-auto">
                 <img
-                  src="https://img.freepik.com/free-photo/close-up-happy-executive_1098-768.jpg?w=1380&t=st=1696249460~exp=1696250060~hmac=6ff2e83a862319f1071fc75705aa7bf20351d57115aaed93b007cf3f44c7432e"
+                  src="https://legaldesk.com/wp-content/uploads/2016/02/Software-Development-Contract.jpg"
                   loading="lazy"
                   alt=" by Martin Sanchez"
                   className="h-full w-full mx-auto object-cover object-center"
