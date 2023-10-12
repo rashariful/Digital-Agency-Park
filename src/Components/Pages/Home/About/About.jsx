@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Team from "../Team/Team";
+import bg from "../../../../Assets/bg.jpg"
 
 // import "../../../../styles/AboutCompStyles.css";
 // import {car,carout,carshop,worker} from '../../../../assets/AboutCompImages';
@@ -10,7 +11,7 @@ const About = () => {
     <div className="">
       <div className="relative">
         <img
-          src="https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg?w=1380&t=st=1696190933~exp=1696191533~hmac=dbbda40a5e40b2989c291496fb87670f962aee62c6d982e5d403a3d8fcfec5fd"
+          src={bg}
           alt="Top "
           className="w-full object-cover h-96"
         />

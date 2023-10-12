@@ -2,6 +2,8 @@
 import React from "react";
 // import "../../../../styles/ContactUsStyles.css";
 import { Link } from "react-router-dom";
+import bg from "../../../../Assets/bg.jpg"
+
 // import COLORS from "../../../../assets/COLORS/COLORS";
 import {
   FaPhoneAlt,
@@ -16,7 +18,7 @@ const Contact = () => {
       <div className=" -z-50">
         <div className="relative">
           <img
-            src="https://cdn.pixabay.com/photo/2016/11/14/02/55/path-1822448_1280.jpg"
+            src={bg}
             alt="Top "
             className="w-full object-cover h-96"
           />

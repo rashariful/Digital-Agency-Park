@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import bg from "../../../../Assets/bg.jpg"
+
 // import axios from "axios";
 
 
@@ -20,7 +22,7 @@ const Blog = () => {
     <div className=" bg-white ">
       <div className="relative mb-20">
         <img
-          src="https://img.freepik.com/free-vector/abstract-digital-technology-background-with-network-connection-lines_1017-25552.jpg?w=1380&t=st=1696190778~exp=1696191378~hmac=1af9c299c8488fcb03b3207b509f849b3a3cadc36f7944e9c5764273d3c73b1d"
+          src={bg}
           alt="Top "
           className="w-full object-cover h-96"
         />
