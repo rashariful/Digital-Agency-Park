@@ -17,13 +17,15 @@ import Number from "./Number/Number";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import GoToTopButton from "../../GoToTopButton/GoToTopButton";
 import TestSlider from "./Slider/TestSlider";
+import TestTwo from "./Slider/TestTwo";
 // import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const Home = () => {
   return (
     <div className="">  
-        <Slider />
-        <TestSlider/>
+    <TestTwo/>
+        {/* <Slider />
+        <TestSlider/> */}
         <Service />
         <OurSolution />
         <WorkingWay />
