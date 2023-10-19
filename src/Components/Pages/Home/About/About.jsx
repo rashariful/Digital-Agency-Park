@@ -28,14 +28,14 @@ const About = () => {
         </div>
       </div>
       <div className="bg-white py-6 sm:py-8 lg:py-12">
-        <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-          <div className=" w-1/2 mx-auto">
+        <div className="mx-auto max-w-screen-xl  px-4 md:px-8">
+          <div className=" w-1/2 mx-auto ">
             <div className=""> <di className=" mx-auto overflow-hidden rounded-lg bg-rose-100 shadow-lg md:h-auto ">
                 <img
                   src="https://legaldesk.com/wp-content/uploads/2016/02/Software-Development-Contract.jpg "
                   loading="lazy"
                   alt=" by Martin Sanchez"
-                  className="h-full w-full mx-auto object-cover object-center"
+                  className="h-full w-full mx-auto object-cover object-center "
                 />
               </di>
             </div>
