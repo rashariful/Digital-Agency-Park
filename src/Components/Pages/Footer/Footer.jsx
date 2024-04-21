@@ -184,7 +184,7 @@ const Footer = () => {
 
               <div>
                 <Link
-                  to="#"
+                  to="press"
                   className="text-gray-400 transition duration-100 hover:text-blue-500 active:text-blue-600"
                 >
                   Press

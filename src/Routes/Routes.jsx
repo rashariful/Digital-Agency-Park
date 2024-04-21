@@ -2,6 +2,7 @@ import About from "../Components/Pages/Home/About/About";
 import Blog from "../Components/Pages/Home/Blog/Blog";
 import Contact from "../Components/Pages/Home/Contact/Contact";
 import Details from "../Components/Pages/Home/Home/Details/Details";
+import Press from "../Components/Pages/Home/Home/Press/Press";
 import NotFound from "../Components/Pages/Home/NotFound/NotFound";
 import Services from "../Components/Pages/Home/Services/Services";
 
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
             {
                 path: "/contact-us",
                 element: <Contact/>
+            },
+            {
+                path: "/press",
+                element: <Press/>
             },
         ]
     }
