@@ -40,8 +40,9 @@ const Footer = () => {
                   to="#"
                   className=" text-gray-400 transition duration-100 hover:text-blue-500 active:text-blue-600"
                 >
-                  Road # 03, House # 03, Nikunja 02, <br /> Dhaka Bangladesh
-                  1229
+                  Shop 9b, Level-02,
+                  <br />
+                  BTI Premier plaza shopping mail, <br /> North badda Gulshan Dhaka-1212.
                 </Link>
               </div>
               <div className="flex gap-3 items-center">
@@ -50,7 +51,7 @@ const Footer = () => {
                   to="#"
                   className=" text-gray-400 transition duration-100 hover:text-blue-500 active:text-blue-600"
                 >
-                  +8801850-273117
+                  (+880) 9611595290
                 </Link>
               </div>
               <div className="flex gap-3 items-center">
@@ -102,7 +103,7 @@ const Footer = () => {
           </div>
 
           {/* <!-- nav - start --> */}
-          <div>
+          {/* <div>
             <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
               Products
             </div>
@@ -144,7 +145,7 @@ const Footer = () => {
                 </Link>
               </div>
             </nav>
-          </div>
+          </div> */}
           {/* <!-- nav - end --> */}
 
           {/* <!-- nav - start --> */}
@@ -211,7 +212,7 @@ const Footer = () => {
             <nav className="flex flex-col gap-4">
               <div>
                 <Link
-                  to="#"
+                  to="contact-us"
                   className="text-gray-400 transition duration-100 hover:text-blue-500 active:text-blue-600"
                 >
                   Contact
